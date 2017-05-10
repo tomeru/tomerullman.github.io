@@ -1,0 +1,222 @@
+<!-- based on https://github.com/longouyang/even-odd -->
+
+<html>
+
+  <head>
+    <title>Experiment on intuitive pysics</title>
+    <script src="jquery.min.js"></script>
+    <script src="mmturkey.js"></script>
+    <script src="underscore-min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/c/video.js"></script>    
+  </head>
+
+  <body>
+
+
+    <div class="slide" id="instructions">
+
+      <div class="indicator-outer">
+        <div class="indicator" style="width: 10px"></div>
+      </div>
+
+      <img src="images/mitbcscsail.gif" alt="MIT">
+      <p id='logo-text'>MIT Computational Cognitive Science Lab</p>
+
+      <p class="block-text">You will asked to read an introduction, then asked to answer the same set of question for *** different short movies.</p>
+
+      <p class="block-text">There will also be comprehension and attention checks. Participants who do not answer these checks correctly cannot be approved.</p> 
+
+
+      <button type="button" onclick="$('#instructions').hide(); $('#story').show(); this.blur()">Start</button>
+
+      <p class="block-text" id="legal">By answering the following questions, you are participating in a study being performed by cognitive scientists in the MIT Department of Brain and Cognitive Science. If you have questions about this research, please contact Tomer Ullman at tomeru@mit.edu. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
+
+    </div>
+
+
+    <div class="slide" id="story">
+
+      <div class="indicator-outer">
+        <div class="indicator" style="width: 60px"></div>
+      </div>
+
+      <p class="block-text">
+      <p class="block-text">We're interested in how people understand physics. You will be shown 
+      several movies depicting physical simulations of objects interacting. The physics in these 
+      simulations does not necessarily work like the real world. Your task is to figure out how 
+      it works.</p>
+
+      <p class="block-text">The objects in these movies come in 2 <b>types</b>: <font color="blue">blue</font> and <font color="red">red</font>. Each object can be either <i>heavy</i>, or <i>light</i>. Also, each object type can potentially exert forces on other types: object types either <i>attract</i>, <i>repel</i> or <i>don't interact</i> with one another.</p>
+
+      <p class="block-text">You will be viewing the objects from above, moving on a two-dimensional
+       plane, so you can think of them as "hockey pucks". This plane contains <font color="green">green</font> and <font color="C9960C">yellow</font> surfaces. Surfaces can be either <i>sticky</i> or <i>smooth</i>.</p>
+
+      <p class="block-text">Finally, there may or may not be a global force, pulling all pucks in a particular direction: <i>north</i>, <i>south</i>, <i>east</i> or <i>west</i>). </p>
+      
+      <p class="block-text">Below is an example of how one simulation might look, with the animation paused:<p>
+        
+        <img src="images/example-world.png" HEIGHT = "281.5" WIDTH = "426.5" alt="world example">
+        
+      <p class="block-text">Each animation begins with a brief pause on an image like what you see
+       above, where the arrows show the direction of the <b>initial velocity</b> of the pucks. 
+       If an object does not have an arrow next to it, its initial velocity is zero.</p>
+      
+      <p class="block-text">In the next pages you will be shown *** 5-second movies of pucks moving. 
+      Each movie is drawn from a <b>different</b> world, and the physics may differ from movie to movie. 
+      For each movie you will be asked the same questions about the physics of the situation.</p>
+      
+      <p class="block-text">If the movie doesn't contain enough information to make a decision, or if 
+      you are uncertain, make you best guess given the data.</p>
+
+      <p class="block-text">
+        Check: How many pucks are there in the example world shown above? <input type="text" id="comprehension_1"></input>
+      </p>
+
+      <p class="block-text">
+        <button type="button" onclick="this.blur(); return submitStorySlide();">Next page</button>
+      </p>
+
+      </p>
+    </div>
+
+
+    <div class="slide" id="stage">
+
+      <div class="indicator-outer">
+        <div id="indicator-stage" class="indicator"></div>
+      </div>
+
+      <p class="block-text">
+        When ready, click anywhere on the image to play the movie, and then answer the questions. 
+        Remember, the movie begins briefly paused to indicated the initial velocity of the pucks. 
+        You may to need watch a movie several times to make a decision.
+      </p>      
+      <br>
+      
+      <div width = 435.5 height=326.6 id="video-container" > </div>
+ 
+      <ol class="questionsRight">
+        <li class="question">How do <font color="blue">Blue</font> and
+            <font color="red">Red</font> pucks <b>interact</b>?<br>
+          <select id="coupling_force">
+            <option value="unselected">--</option>
+            <option value="attract">Attract</option>
+            <option value="repel">Repel</option>
+            <option value="no_interaction">No interaction</option>
+          </select>
+        </li>
+        <li class="question">How <b>massive</b> is the <font color="blue">Blue</font> puck?<br>
+          <select id="mass_blue">
+            <option value="unselected">--</option>
+            <option value="0">Heavy</option>
+            <option value="1">Light</option>
+          </select>
+        </li>
+        <li class="question">How <b>massive</b> is the <font color="red">Red</font> puck?<br>
+          <select id="mass_red">
+            <option value="unselected">--</option>
+            <option value="0">Heavy</option>
+            <option value="1">Light</option>
+          </select>
+        </li>
+        <li class="question">What is the <font color="green">Green</font> patch like?<br>
+          <select id="rough_green">
+            <option value="unselected">--</option>
+            <option value="0">Smooth</option>
+            <option value="1">Sticky</option>
+          </select>
+        </li>
+        <li class="question">What is the <font color="#C9960C">Yellow</font> patch like?<br>
+          <select id="rough_yellow">
+            <option value="unselected">--</option>
+            <option value="0">Smooth</option>
+            <option value="1">Sticky</option>
+          </select>
+        </li>
+        <li class="question">Is there a <b>global force</b> pulling the objects,<br> 
+        and if so in what direction is it pulling?<br>
+          <select id="global">
+            <option value="unselected">--</option>
+            <option value="up">North</option>
+            <option value="down">South</option>
+            <option value="left">East</option>
+            <option value="right">West</option>
+            <option value="none">No global force</option>
+          </select>
+        </li>
+      </ol>
+
+      <p class="block-text2">
+        <button type="button" onclick="this.blur(); return experiment.submitAndNext()">Next movie</button>
+      </p>
+      
+      <p class="north-text">
+      <b>North</b>
+      </p>
+      <p class="south-text">
+      <b>South</b>
+      </p>
+      <p class="east-text">
+      <b>East</b>
+      </p>
+      <p class="west-text">
+      <b>West</b>
+      </p>
+    </div>
+
+    <div class="slide" id="feedback">
+
+      <div class="indicator-outer">
+        <div class="indicator" style="width: 480px"></div>
+      </div>
+
+      <p id='logo-text'>Feedback</p>
+
+      <p class="block-text">
+        In general, how did you reason about the physics of each world?
+        <textarea class="feedback" id="feedback_reasoning"></textarea>
+      </p>
+
+      <p class="block-text">
+        How difficult was the experiment to understand?
+        <span class="radio">
+          very easy
+          <input type="radio" name="feedback_difficulty" value="0" /> 
+          <input type="radio" name="feedback_difficulty" value="1" /> 
+          <input type="radio" name="feedback_difficulty" value="2" /> 
+          <input type="radio" name="feedback_difficulty" value="3" /> 
+          <input type="radio" name="feedback_difficulty" value="4" /> 
+          <input type="radio" name="feedback_difficulty" value="5" /> 
+          <input type="radio" name="feedback_difficulty" value="6" /> 
+          <input type="radio" name="feedback_difficulty" value="7" /> 
+          <input type="radio" name="feedback_difficulty" value="8" /> 
+          <input type="radio" name="feedback_difficulty" value="9" /> 
+          very difficult
+        </span>
+      </p>
+
+      <button type="button" onclick="this.blur(); return experiment.storeFeedback();">Submit</button>
+
+    </div>
+
+
+    <div class="slide" id="finished">
+
+      <p class="block-text">
+        Thank you very much for participating! If you have any questions or comments, please contact tomeru@mit.edu. 
+      </p>
+
+      <p class="block-text">
+        Submitting to Mechanical Turk...
+      </p>
+
+    </div>
+
+
+    <script src="experiment.js"></script>
+    <script src="jwplayer/jwplayer.js"></script>
+
+  </body>
+</html>

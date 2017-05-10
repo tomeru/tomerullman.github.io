@@ -1,0 +1,1242 @@
+RESPONSE FOR: launching
+=========================
+0. Blue pushed red
+1. A ball bumped into another ball and moved it.
+3. The teal ball exited the grey square heading right and hit the red ball.  The teal ball stopped where it hit the red ball and the red ball continued going right.
+5. one ball bumps another like in pool
+6. one object pushes on another object to make it move
+7. A blue ball exits a purple box and impacts a red ball. The blue ball comes to rest and the red ball is propelled out of the frame from the force of the impact in the same direction that the blue ball was traveling.
+8. One object is moving towards another and bumps into it, causing the moving object to stop and the stationary object to move away.
+9. the blue ball pushes the red ball. 
+10. A green ball hits an orange ball
+11. The blue shape came in and pushed the red shape.
+12. The blue ball hit the red ball, which was at rest and made it roll off the screen.
+13. A green circle rolls out of a box and bumps into a red circle. The bump causes the red circle to roll away. 
+14. The blue circle collides with the red circle sending it off
+15. A green ball is pushing the red ball down the line
+16. A dark green bluish colored  ball pushes a red ball over the edge. The dark green bluish  ball is aggressive.
+17. The teal ball knocks the red ball forward.
+18. The blue shape pushes the red shape along the floor.
+19. The green ball rolls and hits the still red ball then the red ball moves forward while the green ball stays in place. 
+20. 2 circles roll down hill. The first one hits the second one and they both roll down hill.
+21. One object bumping another object.
+22. Blue ball hits red ball and stops, the red ball moves to the right. 
+23. The blue ball pushes the red ball away.
+24. The blue ball bumped the red ball out of its way.
+25. a blue ball hits a red ball causing it to roll off.  
+26. The blue circle bumps the red circle and the red circle goes away to the right.
+27. The blue circle pushed the red circle off the screen.
+29. the blue ball comes out of the box, hits the red ball making it move to the right, red ball stops.
+30. There is no voice.
+31. A blue  ball knocks a red ball
+32. The blue ball moved the red ball.
+34. A blue ball transfers its energy to a red ball.
+35. a blue ball hits a stationary red ball. This causes the blue ball to stop and the red ball to roll away
+36. The red ball is tagged by the blue ball & it moves on.
+37. A green ball hitting a red ball
+38. The green ball rolls and hits the red ball, which causes it to roll back
+39. The blue ball rolls out, and hits the red ball causing the red ball to roll away and the blue one to stay in its place
+40. I think this video is a car bumping into another car and making it go forward.
+41. The blue ball hits the red ball and pushes it.
+42. An object is rolling across the ground and hits another object causing that object to start rolling. 
+43. The blue ball rolls and taps the red ball. the red ball rolls away.
+44. The blue ball hits the red ball and makes it roll.
+45. A blue ball is hitting a red ball causing it to move.
+46. green ball bounces off red ball making red ball roll off screen to right
+47. BLUE BALL HITS RED BALL
+48. A green ball comes out from behind a gray box, hits a red ball,  and the red ball rolls off screen.
+49. a blue ball pushes red ball.
+50. The green ball came into the screen and pushed the red ball off the screen.
+51. The blue ball is gently pushing the red ball.
+52. Blue passes momentum onto red
+53. The blue ball causes the red ball to move away through force of impact.
+54. There is a blue ball rolling out of sometype of conveyor. Its hits a red ball which causes the blue ball to stop and the red ball to roll.
+55. The blue ball rolls into the red ball, pushing it away.
+56. The blue object rolls into the red stationary object, causing the red object to begin rolling and the blue object to stall.
+57. A ball bumps into another ball, causing the other ball to move.
+58. Blue ball knocks the red ball away
+59. blue ball bumps red ball off the stage
+60. A blue ball rolls into a red ball which causes it to roll away.
+61. A person kicking a ball
+62. Green ball moving to the right and hitting a red ball.
+63. The green ball rolls into the red ball causing the red ball to roll.
+64. The blue ball is approaching the red, but the red is running away.
+65. The light blue ball pushes the red ball away
+66. The blue object collides with the red object
+67. A ball knocks another ball away
+68. A blue circle hits a red circle which rolls away
+69. The blue ball rolls into the red ball, and it moves it
+70. The video shows the blue person pushing the red person who doesn't react with moving away or pushing back.
+71. the blue circle bumped the red circle
+72. An inelastic collison between two different colored circles.
+73. The greenish blue ball rolls into the red ball, which makes the red ball roll away to the right.
+74. The blue ball pushed the red ball off of the screen
+75. The blue ball rolls into the red ball, which sends the red ball rolling away and causes the blue ball to stop.
+76. A blue ball struck a red ball and made it move off screen. 
+77. A blue ball rolls into a red ball causing the blue ball to stop and the red ball to begin rolling.
+78. Blue pushes red away.
+79. Teal circle bumps into red circle knocking them off the screen.
+80. the blue green ball rolls into the red ball and knocks it away.
+82. The green ball push's the red one away.
+83. green object rolls out, collides into the red object transferring the energy. green object stops and the red object continues its path.
+84. The greenish blue ball rolled into the red ball, which then rolled away.
+85. The green ball hit the red ball
+87. The ball hit the other ball
+88. The blue ball rolls into the red ball, causing the red ball to roll to the right.
+89. The blue ball hits the red ball when rolling and causes it to roll away.
+90. The blue ball hit the red ball
+91. the blue ball knocking the red ball out of the way
+92. The blue ball knocks the red one away.
+93. Blue ball bumps into the red ball forcing the red ball away.
+94. It looks like the blue object hits the red object and causes it to move.
+95. blue ball hits red ball causing it to move, transfers its energy .
+96. A ball rolls from the left, hits a red ball and the red ball then rolls right from the impact.
+97. The blue ball hits the red ball and moves it forward
+98. The blue ball hits the red ball, causing it to roll away. 
+99. The green ball comes in and hits the red ball causing it to roll away
+100. Green ball bumps into and moves red ball. 
+101. A rolling ball hits another ball causing it to roll. 
+102. Blue is bullying red.
+103. Energy is being transferred from the blue sphere to the red one. 
+104. The motion of the blue ball was transferred to the red ball.
+105. The blue ball bumps the red ball out of the frame.
+107. Blue ball pushes red ball.
+108. THe blue ball hit the red ball and caused it to move.
+109. A blue ball hits a red ball causing the red ball to roll forward and the blue ball to stop.
+110. The blue ball rolls into the red ball, which causes the red ball to roll forward. 
+
+
+RESPONSE FOR: launchingHeavy
+=========================
+0. Blue pushed red off the frame 
+1. The blue ball bumped the red ball.
+3. The teal ball exited the grey square heading right.  The teal ball hit the red ball which was stationary.  The red ball went right due to the force of the teal ball and exited the screen.  The teal ball continued going right but slower due to the contact with red ball.
+5. one ball hits another still with forward momentum
+6. one object comes up to push against another object to make it move
+7. A blue ball exits a purple box and impacts a red ball. The red ball is propelled out of the frame by the force of the impact in the direction that the blue ball was traveling. The blue ball continues to travel in the same direction.
+8. The blue object is moving towards the red object and bumps into it. The red object moves away while the blue object follows behind.
+9. the blue ball pushes the red ball and there isn't enough force to stop it so it keeps going.
+10. A blue ball bumps a red ball
+11. The blue shape went up to the red shape, the red shape ran away.
+12. The blue ball hit the red ball, and both balls continued rolling forward.
+13. A blue circle slides out of a box and bumps into a red circle. The impact pushes the red circle away, while the blue circle slows down and stops. 
+14. blue ball hits the red ball and keeps moving in the same direction
+15. A blue ball is pushing a red ball down the line
+16. The darker green blue colored ball bumps the red ball. The red ball goes off the line.
+17. The teal ball touches the red one and causes it to run away.
+18. The blue shape bumps into the red shape. The red shape then runs away.
+19. The blue ball rolls and hits the still red ball then the red ball rolls along with the blue ball forward. 
+20. two balls roll downhill. The first hits the second pushing it downhill. 
+21. One person going after another person.
+22. The blue ball hits the red ball, both balls continue. Though the blue eventually stops and the red goes off frame. 
+23. The blue circle chased the red circle to the right.
+25. a blue ball knocks into a red ball pushing it off, it slows the blue balls momentum. 
+26. the blue circle appears and chases the red circle to the right
+27. A blue circle ran into a red circle and both continued to move to the right. 
+31. s red ball runs from a blue  one
+32. The blue ball pushed the red ball and moved along with it.
+34. A blue ball transfers some of its energy to a red ball.
+35. a blue ball hits a stationary red ball. this causes the red ball to start rolling. the blue ball continues to roll after a slight disruption of its progress
+36. The blue ball pushes the red ball.
+37. A blue (looks green on my monitor) ball hitting a red ball
+38. The green ball hits the red ball, which causes it to roll out of the screen
+39. The blue ball rolls out and hits the red ball. the red ball starts to roll away and the blue follows
+40. This also looks like the blue is trying to bump into the red and then go after it.
+41. The blue ball bumps the red ball and follows it.
+42. A blue man walks over to the red man and pushes him and starts chasing him. 
+43. The blue ball rolls toward the red ball bumping the red ball and the red ball rolls away.
+44. The blue ball chases the  red ball away.
+45. A blue ball is pushing or hitting a red ball causing it to move rapidly.
+46. green ball rolls into scene and barely touches red ball, and startles red ball to roll away from green ball to the right and off the screen.
+47. BLUE BALLS MOVES RED BALL
+48. A green balls comes from behind a gray box, hits a red ball, and they both continue to the right together.
+49. a blue ball runs into red ball.
+50. The green ball came into the screen and pushed the red ball off the screen.
+51. The blue ball is chasing the red ball away.
+52. blue gives red a push
+53. The blue ball is forcing the red ball to move through force of impact, once again.
+54. A blue ball rolls out and hits a red ball which caused the red ball to roll. The blue ball continues to roll behind the red ball.
+55. The blue balls rolls into the red ball, then continues rolling after the red ball.
+56. The blue ball rolls into the stationary red ball which then begins rolling, followed by the blue ball (which is still moving).
+57. A ball bumps into another ball causing both to keep moving
+58. Blue ball knocks into the red ball
+59. blue ball bumps red ball and follows a bit
+60. The blue ball runs towards the red ball and pushes it. The red ball runs away with the blue ball chasing it.
+61. Blue shape chasing after red shape
+62. The blue ball is hitting the red ball. The red ball moves to the right from teh force of the hit. 
+63. The green ball pushes the red ball
+64. The blue ball seemed to be rolling towards the red and hitting it.
+65. The light blue ball pushes the red ball away and then chases it.
+66. The blue person tags the red person. It is like a relay race.
+67. A ball runs into another and transfers momentup to it
+68. A blue circle rolls to the right, hitting the red circle which tries to run away
+69. The blue ball bumps into the red ball, and follows it.
+70. The blue person/ball is pushing the red one along and following.  
+71. The blue object bumped the red object.
+72. Another inelastic collison between two different colored circles.
+74. The blue ball pushed the red ball off of the screen
+75. The blue ball slides into the red ball which causes them both to slide away.
+76. The blue ball bumped the red ball, and they both kept moving right. 
+77. The blue ball rolls into the red ball causing the blue ball to stop after a tiny bit more rolling and causing the red ball to begin rolling.
+78. Blue is attacking red. Red runs away and blue chases. 
+79. Teal circle bumps into red circle knocking them off the screen.
+80. the blue ball runs up to the red ball and scares it away.
+82. The green ball moves to the right, And once it touch's the red ball it starts moving in the same way.
+83. the green ball rolls out ramming into the red ball, the red ball is pushed away
+84. The greenish blue ball rolled into the red ball which seemed to be running away.
+85. The green ball chased the red ball
+87. The blue ball the the red ball.
+88. The blue ball taps the red ball and they both roll to the right.
+89. The blue ball is traveling fast and hits the red ball out of the way.
+90. The blue ball hit the red ball and kept moving
+91. the blue ball pushing the red ball all the way to the right side .
+92. THe blue ball chases the red one
+93. Blue ball bumps the red ball pushing it away.
+94. The blue object hits the red object and both continue to move forward.
+95. blue object collides with and pushes red object.
+96. A red ball rolls away as the blue ball gets near it/slightly touches it.
+97. The blue ball pushes the red ball foward
+98. The blue ball hits the red ball, pushing it away. It also briefly follows it before stopping.  
+99. The green ball pushes the red ball to the right just like the last video.
+100. Green ball bumps into red ball and pushes it. 
+101. One person is walking by and nudges his friend to start walking 
+102. Blue pushes red.
+103. The blue sphere knocks the red sphere, causing both spheres to roll. 
+104. The blue ball bumped the red ball, causing the red ball to move.
+105. The blue ball pushes the red ball out of the frame.
+107. Blue ball pushes red ball.
+108. The blue ball still hit the red ball.
+109. The blue ball taps the red ball causing the red ball to run away and the blue ball follows it.
+110. The blue ball rolls into the red ball, which causes the red ball to roll forward. 
+
+
+RESPONSE FOR: launchingLight
+=========================
+0. Blue tried to push off red but was met with resistance 
+1. The blue ball bumped the red one and got moved back.
+3. The teal ball exited the grey square heading right.  The teal ball hit the red ball which was stationary.  The red ball went right due to the force of the teal ball a small distance.  The teal ball rebounded from the impact with red ball and went left into the grey square.
+5. the red ball is heavier and more dense than the blue ball
+6. one object moves to another object, but that object pushes back on the other one
+7. A blue ball exits a purple box and impacts a red ball. The blue ball reverses direction on impact while the red ball slowly rolls in the same direction as the initial movement of the blue ball.
+8. The blue ball runs into the red ball, causing the blue ball to bounce backwards and move away. The red ball slowly moves backwards afterwards.
+9. The blue ball is much lighter than the red ball so when it hits, it bounces back.
+10. a blue ball and a red ball bump and repel each other
+11. The blue shape bounced off the red shape.
+12. The blue ball hit the red ball and bounced off.
+13. A blue circle rolls out of a box and bumps into a red circle.  The red circle is heavier,  so the blue circle bounces off and rolls back in the opposite direction. The red circle moves a little. 
+14. The blue circle bounces off the red one. Both moving in opposite directions
+15. The blue ball bumps the red ball but then retreats back.
+16. The dark green blue colored ball hits the red ball. The dark green blue colored ball goes backwards after hitting the red ball.
+17. The blue ball knocks into the red one and is repelled backwards.
+18. The blue shape bumps into the red shape, pushing it slightly and bouncing off in the opposite direction.
+19. The blue ball rolls to hit the still red ball then bounces off and rolls to the opposite while the red ball rolls off forward. 
+20. 2 circles hit each other and then they are pushed in opposite directions. 
+21. One person fighting back against another person who started the attack.
+22. The blue ball knocked the red ball slightly and went backwards. 
+23. The blue circle hit the red circle and bounced back, while the red circle moved slightly to the right after being hit.
+25. a blue ball bumps in to a red ball, the blue ball bounces away the red ball is barely effected. 
+26. The blue shape bumps into the red shape and the blue shape moves away to the left
+27. A blue circle ran in to a red circle and bounced off of it.
+31. blue ball is reelled
+32. The blue ball hit the red ball and bounced back.
+34. A blue ball transfers its energy to a red ball, most of it is transferred back in the opposite direction.
+35. a blue ball hits a red ball. the red ball starts to move slowly. the blue ball bounces backward.
+36. The blue ball kissed the red ball.
+37. A blue ball bumping into a red ball
+38. The green ball rolls and hits the red ball, which causes the green ball to roll back since the red ball is too hard to roll back
+39. The blue ball rolls out and hits the red ball. the blue ball holds its position and the blue ball bounces away
+41. The blue ball bumps the red ball and bounces off the red ball, then retreats.
+42. Blue is trying to push red but red pushes harder and blue flees. 
+43. The blue ball bumps into the red ball and the blue ball rolls back behind the wall, the red ball only moves slightly.
+44. The blue ball bounces off of the red ball.
+45. The blue ball hits the red ball, but the red ball is heavier causing the blue ball to bounce off it.
+46. blue ball bounces off red ball and runs away
+47. BLUE BALL TRIES TO MOVE THROUGH RED BALL AND IS TOO WEAK
+48. A green ball come out from a gray box, hits a red ball, and is forced back towards the gray box. The red ball moves slightly.
+49. a light blue ball bumps into heavy red ball.
+50. The green ball hit the red ball and was taken aback and repelled.
+51. The blue ball bumps into the red ball and bounce backwards.
+52. blue pushes red and then goes back to where it came
+53. The blue ball makes impact with the red ball, the red ball is able to absorb it and send not only equal force, but superior force, in return, which sends the blue ball backwards.
+54. The blue ball tags the red ball.
+55. The blue ball rolls into the red ball, bumps it, and then they roll away from each other.
+56. The blue shape runs into the stationary red shape, knocking the red shape slightly to the right but causing the blue shape to bounce strongly back to the left
+57. A ball bumps another ball, causing the balls to go in opposite directions.
+58. Blue ball knocks into red ball but red ball doesn't move
+59. blue bumps red and bounces off
+60. The blue ball rolls into the red ball and is pushed back as the red ball is too heavy to roll. The blue ball weighs less than the red ball. 
+61. Red shape pushing away a heavy ball coming at him
+62. The blue ball bounces off the red ball. 
+63. The blue shape bumps into the red shape
+64. The blue ball bumped the red ball.
+65. The blue ball hits the red ball and bounces off
+66. The blue shape collides with the red shape.
+67. A ball hits a much heavier ball and is bounced off of it
+68. A blue circle rolls into the red circle, which rolls back slightly, and the blue circle rolls back to the left
+69. The blue ball bumps into the red ball - which resists & the blue ball goes back where it came from.
+70. The blue person/ball bumps into the red and then backs off.
+71. The objects repelled each other.
+72. Yet another inelastic collison between two different colored circles.  The blue circle moves backwards after colliding with the red circle.
+74. The blue ball ran into the red ball and the blue ball was pushed back
+75. The blue ball slides into the red ball and bounces back off of it.
+76. The blue ball hit the red ball, but the red ball barely moved while the blue ball retreated. 
+77. The blue ball rolls into the red ball but the red ball is heavier than the blue ball. Thus the red ball moves forward a little and the blue ball's direction is reversed.
+78. Blue touches red then leaves.  Red leaves too. 
+79. Teal circle bumps into red circle and bounces off.
+80. the blue ball runs into the red ball and bounces back from the red ball
+82. The green ball hits the red ball and bounces back.
+83. green ball rolls out hitting the red ball and bounces off.
+84. The blue ball bumped into the red ball which made both balls roll.
+85. the blue ball just touched the red ball
+87. The blue ball hit red and went back.
+88. The blue ball taps the red ball and then leaves.
+89. The blue ball hits the red ball but it hardly moves.  The red ball must be heaving than the blue ball.
+90. The blue ball bounced off the red ball
+91. blue ball bumping the red ball and then bouncing back to the opposite side.
+92. The blue ball goes at the red one and gets knocked back.
+93. Red ball is heavy and resists much of the blue ball's force, only moving slightly.
+94. The blue object hits the red object and the blue object gets pushed away.
+95. lighter blue object is repelled by red object, bounces back.
+96. A blue ball rolls into the red ball but bounces  off and rolls backwards.
+97. The red ball repels the blue ball and moves it backward
+98. The blue ball tries to shove the red ball, but it pushes it back. 
+99. The green ball comes in and makes contact with the red ball and then goes back the way it came.
+100. Green ball bumps into red ball and gets pushed back. 
+101. One lighter weigh ball knocks against a heavier weight ball and is repelled back. 
+102. Blue pushes red, then leaves
+103. The red sphere resists and bumps the blue sphere back from where it came from. 
+104. The blue ball bounced off the red ball.
+105. The blue ball attempts to push the red ball, but does not succeed and is pushed back.
+107. Blue ball pushes red ball but red ball is heavy so blue ball gets pushed back.
+108. THe blue ball was playing chase with the red.
+109. The blue ball hits the red ball causing the red ball to roll forward and the blue ball to roll backward.
+110. the blue ball bumps into the red ball, but the red ball is heavier, so it causes the blue ball to roll backwards. 
+
+
+RESPONSE FOR: pushing
+=========================
+0. Blue dragged the red object to the right 
+1. The blue ball approached the red one and moved with the red one.
+3. The teal ball exited the grey square heading right.  The teal ball hit the red ball which was stationary.  The red ball went right due to the force of the teal ball.  The teal ball continued going right but slower due to the contact with red ball.  Both balls proceeded at a slower speed together towards the right.  It seemed the red ball was slowing or resisting the teal ball.
+5. the blue ball is pushing the red ball
+6. the blue shape is attrated to the red one and they move off together connected
+7. The blue ball impacts the red ball. The two remain in contact traveling in the initial direction of the blue ball. 
+8. The blue ball runs into the red ball and pushes it backwards.
+9. the blue is pushing the red, which is tryin gnot to be pushed.
+10. Blue and red balls move together
+11. The blue shape made contact with the red shape and pushed it.
+12. The blue ball came in contact with the red ball and they rolled together while touching.
+13. A blue circle rolls out of a box and impacts a red circle. The force of the blue circle causes the red circle to slide, but it is heavier and eventually stops the blue circle's momentum. 
+14. The blue shape sticks to the red shape and they move along the same path
+15. The blue ball pushes the red ball down the line and then follows while still pushing.
+16. The dark green blue ball taps the red ball. The daek green blue ball  rolls with the red ball.
+17. The blue ball attaches itself to the red one and moves the two forward.
+18. The blue shape bumps into the red shape, pushing it to the right.
+19. The blue ball rolls to the still red ball then pushes the red ball along forward together. 
+20. 2 circles roll downhill . The first one rolls down attaches to the other one and they roll downhill stuck together.
+21. One person helping push another.
+22. The blue ball bumped the red ball and they slid together. 
+23. The blue circle attached itself to the red circle and moved slightly to the right.
+25. a blue ball rolls into a red ball, and then they roll away together.
+26. The two shapes come together and stick to each other while moving towards the right
+27. A blue circle pushes a red circle.
+31. meeting together
+32. The blue ball pushed the red ball and stayed with it.
+34. A blue ball transfers some of its energy to a red ball.
+35. a blue ball hits a stationary red ball. they then roll together.
+36. The blue ball is pushing the red ball to the right
+37. A blue ball pushing a red ball.
+38. The green ball hits the red ball, yet it rolls with it in a slow speed
+39. the blue ball rolls out and hits the red ball and they roll away together
+41. The blue ball attaches to the red ball, and then they slide together as the blue ball pushes.
+42. blue starts pushing red shape which is an object to the right 
+43. the blue ball rolls to the red ball and they both roll away together.
+44. The blue ball knocks into the red ball making it move slightly.
+45. The blue ball is slowly pushing the red ball.
+46. blue ball pushes red ball to the right
+47. BLUE BALL TRIES TO MOVE THROUGH RED BALL AND CAN BARELY DO SO.
+48. A green ball rolls out from a gray box, hits a red ball, sticks, and they both roll off together.
+49. a blue ball moves a red ball.
+50. The green ball came into the screen and pushed the red ball aside and they went together off the screen.
+51. The blue ball is helping the red ball move to the right.
+52. Blue sticks to red and they move forward
+53. The blue ball makes impact with the red ball and the two slide together forward, remaining tied to one another.
+54. The blue ball runs with the red ball.
+55. The blue ball rolls to the red ball, then they roll together.
+56. The blue shape rolls into the stationary red shape, they join together, and then roll off to the right.
+57. A ball hits another ball, causing them to clump together and move forward.
+58. Blue ball rolls into red ball and both roll away together
+59. blue ball bumps into and follows red
+60. The blue ball pushes the red ball.
+61. Red shape trying to stop the blue shape from uncontrollably moving (possibly on roller skates, etc.)
+62. The blue ball hits the red ball and they stick together as they move.
+63. The blue shape pushes the red shape to the right
+64. The blue ball was trying to push the red, but the red was pushing back.
+65. The blue ball hits the red ball and pushes it slowly away
+66. The blue shape joins with the red shape.
+67. A ball runs into another and then they both move forward together
+68. A blue circle rolls to the right and pushes the red circle
+69. The blue ball connects with the red, and they roll together.
+70. The blue person/ball is sliding into the red and staying.
+71. The blue object pushed the red object.
+72. The two circles collide and become one object, moving together to the right.
+74. The blue ball ran into the red ball and became stuck, then both balls moved off of the screen
+75. The blue ball slides into the red ball and they then slide together.
+76. The blue ball ran into the red ball and they moved together. 
+77. The blue ball rolls into the red ball. The blue and red balls connect with each other and both come to a stop.
+78. Blue and red walk away together. 
+79. Teal circle runs into red circle and red circle trys to slow their momentum.
+80. the blue ball runs into the red ball and they both move together.
+82. The green ball touch's the red ball and then they move together.
+83. the green ball rolls into the red ball then both continue to roll in the same direction.
+84. The blue ball rolled into the red ball and then they rolled together.
+85. The blue ball met up with the red ball
+87. The blue ball dragged the red ball. 
+88. The blue ball meets the red ball and they roll to the right together.
+89. the blue ball hits the red ball and they travel simultaneously with each other.
+90. The blue ball hit and stuck to the red ball
+91. the blue ball slowly sliding with the red ball across the screen.
+92. The balls get attached and move slowly.
+93. Both the blue and red ball are an equal weight and slide together once they bump together.
+94. The blue object touches the red object and they both go off together.
+95. blue and red objects stick together after collision and continue down track
+96. a blue ball rolls into a red ball and they both roll to the right.
+97. The blue and the red ball attract each other equally and stick together like magnets
+98. The blue ball hits the red ball and they both briefly roll together. 
+99. The blue ball comes in and attaches itself to the red ball
+100. Green ball bumps into red ball and slides with it.  
+101. One person walks up to a ball and starts pushing it. 
+102. Blue wants to hang out with red
+103. As the blue sphere transfers energy to the red sphere, the red sphere attracts the blue sphere, causing both to roll forward. 
+104. The blue ball met the red ball and they rolled side by side.
+105. The blue ball pushes the red ball with force to get it to move.
+107. Blue ball pushes red ball along slowly.
+108. the blue caught up to the red and they walked together.
+109. The blue ball taps the red ball and they both roll forward together.
+110. the blue ball rolls into the red ball, and both the red and blue balls roll forward. 
+
+
+RESPONSE FOR: pushingHeavy
+=========================
+0. Blue was trying to get to the right, but red prevented it. 
+1. The blue ball bumped the red ball and moved a bit.
+3. The teal ball exited the grey square heading right.  The teal ball hit the red ball which was stationary.  The red ball slowly went right due to the force of the teal ball.  The teal ball continued going right but much slower due to the contact with red ball which appeared to be resisting the force from the teal ball due to weight.
+5. the red ball is stopping the blue ball
+6. the red shape is preventing the blue one from progressing to the right
+7. The blue ball impact the red ball and decelerates while remaining in contact with the red ball.
+8. The blue balls runs into the red ball, but the red ball resists and stops the blue ball from advancing.
+9. The blue is trying to move the red, which is stopping the blue
+10. Blue ball and red ball bump each other
+11. The blue shape made contact with the red shape, the red shape barely moved.
+12. The blue ball hit the red ball and they both didn't move much.
+13. The blue circle slides out of the box and impacts the red circle. The red circle is much heavier and resists the impact, only budging a little. 
+14. The red shapes stops the movement of the blue shape.
+15. The blue ball gently pushed the red ball down the line and sort of glides down the line with the red ball.
+16. The dark green blue ball taps  the red ball. The dark green blue ball attracts to the red ball it previously tapped.
+17. The blue ball hits the red one and is met with resistance.
+18. The blue shape bumps into the red shape, slowing down and pushing the red shape to the right.
+19. The blue ball rolls forward to the still red ball then pushes it forward slightly while the red ball moves slowly with resistance.  
+20. blue ball rolls downhill attaching itself to the red circle and they rolled downhill slowly together.
+21. One object bumping into another object.
+22. The blue ball hit the red ball and seemed to stick to it, then they slid a small distance. 
+23. The blue circle attached itself to the red circle.
+25. a blue ball rolls into the red ball and gently stops pushing the red ball a short distance
+26. The blue shape comes towards the red shape and they both stop in the middle.
+27. A blue circle hits a red circle and moves it across the screen. 
+31. confrontation between the balls
+32. The blue ball attempted to push the red balls but didn't go far.
+34. Most of a blue ball's energy dissipates when it hits a red ball.
+35. a blue ball hits a stationary red ball. they roll together very slowly
+36. The blue ball is pushing the red ball which is resisting.
+37. A blue ball slighting pushing a red ball
+38. The green ball hits the red ball against it, yet the green ball falls at its tracks
+39. the blue ball rolls out and hits the red ball. the red ball is rolling with it but its resisting
+41. The blue ball attaches to the red ball and they move together.
+42. Blue is trying to move red object to the right but he is having trouble since it is heavy. 
+43. The red ball stops the blue ball from rolling.
+44. The blue ball bumps into the red ball but the red ball pushes back against its force.
+45. The blue ball's movement is slowed by the red ball.
+46. Red ball is trying to stop the blue ball from going forward.
+47. BLUE BALL TRIES TO MOVE THROUGH RED BALL AND IS TOO WEAK
+48. A green ball comes from behind a gray box, rolls into a red ball, and the red ball seems to resist the movement.
+49. a blue ball bumps into a red ball
+50. The green ball came into the screen and pushed the red ball.
+51. The blue ball is trying to push the red ball to the right.
+52. blue hits red and they move a little
+53. The blue ball makes impact with the red ball and there is a struggle, with the blue ball slightly altering the red ball's position, but being met with rivaling resistance.
+54. The red ball resists the pushing of the blue ball.
+55. The blue ball rolls into the red ball, then they continue to roll a little bit.
+56. The blue shape rolls into the stationary red shape which remains stationary and causes the blue shape to come to a stop.
+57. Two balls bump into each other, causing them to move slowly.
+58. Blue ball bumps into heavy red ball and slows down
+59. blue ball bumps into red and stays
+60. The blue ball races towards the red ball and they come together.
+61. Blue shape running over and hugging the red shape
+62. The blue ball moves quickly and attached to the red ball.  The red ball stops the blue ball but they  move a little. 
+63. The blue shape bumps into the red shape and the red shape it trying to prevent the blue shape from moving. 
+64. The blue ball was trying to move the red ball.
+65. The blue ball hits the red ball and struggles to move it.
+66. The blue shape collides with the red shape.
+67. A ball moves into another then they slowly move along together
+68. A blue circle moves to the right while the red circle tries to stop it and is pushed back slightly
+69. The blue ball bumps into the red ball, they connect and travel together.
+70. The blue person/ball is sliding to the red and staying.
+71. The blue object pushed the red object and the red object resisted.
+72. The two circles collide and move to the right at a slower pace than the previous video.
+74. The blue ball ran into the red ball and they both stuck together on the screen
+75. The blue ball slides into the red ball and from there they both come to a near halt.
+76. The blue ball met with the red ball and they moved together. 
+77. The blue ball rolls into the red ball but the red ball has more weight thus stopping the blue ball from rolling further.
+78. Blue slides into red. Red slides a little
+79. Green shape is running to red shape to hug it.
+80. the blue ball tries to push the red ball but gets resisted.
+82. The green ball push's toward the red ball however the red ball is resisting.
+83. green ball rolls into the red ball losing almost all momentum 
+84. The blue ball rolled into the red ball which seemed to put up some resistance.
+85. The blue ball pushed the red one a little
+87. The blue ball dragged the red ball.
+88. The blue ball joins the red ball.
+89. The blue ball runs into the red ball and then proceeds to move slowing away.
+90. the blue ball bumped into the red ball
+91. the blue ball rolling to touch the red ball and once they are touching   they slowly slide across the floor together still touching
+92. The two balls get close and stay there.
+93. Blue ball pushes the red ball forward slightly but the red ball resists much of the force.
+94. The blue object hits the red object and the red object slows it down.
+95. blue shape is being held back by red shape
+96. a blue ball rolls into the red ball but it resists and they stop rolling
+97. The blue and the red ball attract one another and stay together like magnets
+98. The blue ball hits the red ball, but the red ball resists and stops it. 
+99. The blue ball attaches itself to the red ball
+100. Green ball bumps into red ball and the don't move much.  
+101. A person gets a running start to push a heavy ball but it hardly budges. 
+102. Blue pushes red but red is hard to move.
+103. The red sphere prevents the blue sphere from rolling. 
+104. The blue ball tried to push the red ball.
+105. The blue ball pushes the red ball and attempts to push it, but the red ball drags itself in order to prevent the blue ball from succeeding.
+107. blue pushes red slowly but red is heavy so they don't go far.
+108. they touched base with each other.
+109. The blue ball runs into the red ball and pushes it forward.
+110. the blue ball rolls into the red ball, but the red ball is heavy, so it resists and slows the blue ball down.
+
+
+RESPONSE FOR: dragging
+=========================
+0. Blue was trying to go right, but red made it go left. 
+1. The blue ball caught the red one and ran away.
+3. The teal ball exited the grey square heading right.  The teal ball hit the red ball which was stationary.  The red ball went left immediately on contact with the teal ball.  The teal ball was pushed back towards the grey square by the red ball.
+5. the blue ball is pulling the red ball
+6. the blue ball is trying to go right, but the red ball prevents it by pushing it to the left
+7. The blue ball impacts the red ball. On impact the blue ball reverses direction with the red ball remaining in contact.
+8. The blue ball runs into the red ball, but the red ball pushes back the blue ball, and keeps pushing the blue ball away.
+9. blue tries to move red to the right, but red fights back
+10. Red ball pushes blue ball back
+11. The blue shape met the red shape, the red shape pushed back.
+12. The blue ball rolled into the red ball, then the red ball puched the blue ball the other way.
+13. The blue circle slides out of the box and impacts the red circle, but the red circle actively resists and pushes back against the blue circle, repelling it. 
+14. the blue shape meets up with the red shape and drags it with him
+15. The blue ball tries to bump the red ball but the red ball pushes back and moves it back the way it came.
+16. The dark green blue ball touches the red ball. Together the dark green and blue ball roll backwards together as one.
+17. The blue ball drags the red one offscreen.
+18. The blue shape bumps into the red shape. The red shape then pushes the blue shape to the left.
+19. The blue ball rolls forward to the still red ball then the red ball moves the blue ball to the right together. 
+20. one ball rolls downhill a little bit attaching itself to the red shape, then rolled uphill together.
+21. One person fighting off an attack by another person.
+22. The blue ball hit the red, then they slid to the left attached together. 
+23. The blue circle went towards the red circle, but then the red circle pushed the blue circle back.
+25. a blue ball rolls into a red ball, then they go back together in the same direction
+26. The blue shape appears and the red shape moves towards the blue shape and stops it from progressing while pushing it.
+27. A blue circle drags a red circle.
+31. Resisting each other
+32. The blue ball went to move the red ball but got forced back.
+34. A blue ball transfers some of its energy to a red ball in the opposite directory.
+35. a blue object hits a red stationary red object. they them move in the direction from whence the blue object came
+36. The blue ball goes out to the red ball & they go back together
+37. A blue ball running into a red ball and the red ball pushing back
+38. The green ball rolls back and hits the red ball but the red ball rolls back to the green ball and goes it to roll back
+39. the blue ball rolls into the red ball and the red ball is pushing back
+41. The blue ball slides to the red ball, attaches, and then drags the red ball away.
+42. Blue is dragging red object to the left this time. 
+43. The blue ball rolls out and pulls the red ball back to the love nest.
+44. The blue ball rolls forward but the red ball pushes it away.
+45. The red ball repels the blue ball or is attracted to it.
+46. Green ball is magnetized by red ball
+47. BLUE BALL TRIES TO MOVE THROUGH RED BALL AND RED BALL FIGHTS BACK
+48. A green ball come from behind a gray box, hits a red ball, and the red ball pushes it back towards the box.
+49. a red ball pushes back an oncoming blue ball
+50. The blue ball pushed the red ball and they went backwards together.
+51. The blue ball is trying to move to the right but the red ball is pushing it back.
+52. blue drags red to where it came from
+53. The red ball meets the blue ball's force and is able to overpower it, pushing it backwards, not even being pushed back from its  original position.
+54. The red ball prevents the blue ball from moving forward. 
+55. The blue ball rolls into the red ball, then they move together back toward where the blue ball came from.
+56. The blue shape rolls into the stationary red shape and the red shape pushes the blue shape back toward the left (the direction from which it came).
+57. One circle touches another and seems to pull it away.
+58. Blue ball rolls to red ball, then red ball rolls back into blue ball
+59. blue bumps red and red pushes back.
+60. The blue ball comes towards the red ball and the red ball pushes back the blue ball.
+61. Red shape preventing the blue shape from trespassing by pushing it back
+62. The blue ball slides and hits the red ball. The red ball fights back.
+63. The blue shape is trying to move to the right and the red shape pushes it to the left
+64. The blue ball wanted to move the red, but the red pushed back stronger.
+65. The blue ball hits the red ball and the red ball pushes the blue ball back
+66. The blue shape collides with the red shape and the red shape pushes back.
+67. Blue moves to red and then pulls it back
+68. A blue circle rolls to the right and grabs the red circle and rolls back to the left, taking the red circle with it
+69. The blue ball bumps into the red, and they both travel back into the original area.
+70. The blue slides into the red and red pushes back.
+71. The blue object dragged the red object.
+72. The two circles collide, and stick together, moving to the left at a slow pace.
+74. The blue ball ran into the red ball and attracted it, then the blue ball led the red ball off of the screen
+75. The blue ball slides into the red ball.  The balls then go backwards together.
+76. The blue ball hit the red ball, and then the red ball pushed back on the blue ball. 
+77. The blue ball bumps the red ball. The red ball pushes back towards the blue ball sending both back to the left of the screen.
+78. Blue grabs red and drags it in. 
+79. green shpae runs into red shape and red shape pushes back.
+80. the blue ball runs into the red ball and gets pushed back
+82. The green ball moves toward the red, But then the red ball pushes the green backwards.
+83. green ball pushes into the red ball and bounces off but drags the red ball with it
+84. The blue ball rolled into the red ball, which then pushed back.
+85. The blue ball pulled the red one
+87. The red ball push the blue ball.
+88. The blue ball meets the red ball and they roll to the left together.
+89. The blue ball hits the red ball and then the red ball starts to drive the blue ball in the opposite direction.
+90. The blue ball bumped and pulled the red ball
+91. the blue ball bumping the red ball but then the red ball sliding back to the left with the blue ball
+92. The blue shape runs into the red and gets pushed back.
+93. The red ball fights back against the blue ball.
+94. The blue object hits the red object and the red object pushes the blue object back the way it came.
+95. after collision , red shape is dragged back the other way
+96. a blue ball rolls into the red ball but it resists and they rolls to the left.
+97. The red ball attracts the blue ball and then moves in backward with strength
+98. The blue ball hits the red ball, but the red ball pushes back. 
+99. The blue ball attaches itself to the redball and moves a little bit back the way it came
+100. Green ball bumps into red ball and gets pushed back. 
+101. One person runs up to another but that person pushes him back. 
+102. Blue tries to bully red but red doesn't allow it.
+103. The blue sphere attracts and drags the red one. 
+104. The blue ball bumped the red ball and the red ball pushed the blue ball back.
+105. The blue ball drags the red ball to the left.
+107. Blue pushes red but red pushes back.
+108. they definitely rolled in an unnatural way making them a person.
+109. The blue ball rolls into the red ball and the red ball pushes the blue ball backwards.
+110. the blue ball rolls into the red ball and the red ball pushes against the blue ball, which makes them both roll backwards. 
+
+
+RESPONSE FOR: draggingHeavy
+=========================
+0. Blue was trying to go right, but red prevented it from going anywhere. 
+1. The blue ball grabbed the red one.
+3. The teal ball exited the grey square heading right.  The teal ball hit the red ball which was stationary.  The red ball began pushing the teal ball immediately back to the left.  The teal ball slowly was pushed to the left due to the contact with red ball.
+5. blue ball is pulling the red ball
+6. the blue and red shape seemed to be attracted, maybe magnetically
+7. The blue ball impacts the red ball. On impact the red ball forces the blue ball to the left. The blue ball resists.
+8. The blue ball runs into the red ball. the red ball stops the blue ball and slowly pushes it backwards.
+9. blue tries to move red to the right.
+10. Blue and red ball fight for position
+11. The blue shape met the red shape.
+12. The blue ball hit the red ball, and the red ball nudged the blue ball back a little.
+13. The blue circle slides out of the box into the red circle. The red circle actively resists the blue circle and stops all its momentum, pushing it back slightly. 
+14. blue shape tries to pull the red shape with him but the red shape puts up a fight
+15. The blue ball pushes the red ball but the red ball pushes back gently.
+16. The dark green blue ball slowly bumps the red ball.  Than the dark green blue ball and red ball slowly roll backwards just a tiny bit together than both stop.
+17. The blue ball tries to drag the red one to the left but is met with resistance.
+18. The blue shape bumps into the red shape. The red shape pushes the blue shape to the left.
+19. The blue ball rolls forward to the still red ball then the red ball pushes the blue ball back. 
+20. first ball rolls downhill a little bit attaching to the second ball and rolling uphill very slowly uphill.
+21. One person stopping an advance by another person.
+22. The blue ball attached to the red then pulled it to the left. 
+23. The blue circle came out to the red circle, in which then they both stopped
+25. blue ball rolls in to the red ball, they slightly roll back the way the blue ball came
+26. The blue shape appears and the red shape stops it from progressing. The red shape moves it slightly to the left. 
+27. A blue circle tries to drag a red circle to the left. 
+31. talking between the two shapes
+32. The blue teleported to the red ball but didn't go well.
+34. Most of a blue ball's energy dissipates when it hits a red ball, the rest moves in the opposite direction.
+35. a blue object hits a stationary red object. the red object resists and pushes back.
+36. The blue ball is dragging the red ball to the left
+37. A blue ball slightly bumping  into a red ball and the red ball slightly pushes back
+38. The green ball rolls back to the red ball and it falls at its tracks by the red ball
+39. the blue ball rolls into the red ball and stops. the red ball tries to roll it away
+41. The blue ball slides out and attaches to the red ball. Then the blue ball drags the red ball.
+42. Once again blue is dragging red object to the left but this time it is heavier so it is slower. 
+43. The blue ball rolls out and slightly pulls the red ball towards the wall
+44. The blue ball rolls forward but the red ball pushes it away.
+45. The red ball slowly pushes and rejects the blue ball.
+46. green ball is magnetized by red ball
+47. BLUE BALL TRIES TO MOVE THROUGH RED BALL AND RED BALL FIGHTS BACK
+48. A green ball come from behind a gray box,  hits a red ball, and is slowly pushed back towards the gray box.
+49. a red ball stops a blue ball from rolling
+50. The blue ball pushed the red ball and they went backwards together.
+51. The blue ball approaches the red ball and they join.
+52. blue goes up to red and then they stop moving 
+53. There is a struggle between the blue ball and red ball, as the blue ball makes contact with the red and neither move very much, with the red ball not losing any ground whatsoever, but merely pushing back and slightly overpowering the blue ball, despite the blue ball having all of the momentum.
+54. The red ball prevents the blue ball from moving forward. 
+55. The blue ball rolls into the red ball then they move together slightly backwards.
+56. The blue shape rolls into the stationary red shape and the red shape joins with the blue shape then both move slightly to the left (the direction from where the blue shape originated). 
+57. One circle touches another and slowly pulls it.
+58. Blue ball knocks into red ball and red ball slowly rolls back into it
+59. blue bumps red and red stays
+60. The blue ball comes towards the red ball and makes contact with it. The red ball moves the blue ball backwards for a bit.
+61. Red shape trying to keep the blue shape from going after someone offscreen
+62. The blue ball hits the red ball and the red ball resists. 
+63. The blue shape is fighting with the red shape
+64. The blue ball rolled towards the red, but the red resisted.
+65. The blue ball hits the red ball and the red ball slowly pushes the blue ball back.
+66. The blue shape reaches the red shape and drags it back.
+67. Blue moves to red and then slowly moves it left
+68. A blue circle rolls to the right and grabs the red circle, but the red circle resists and barely moves to the left
+69. The blue ball travels to the red, and connects to it.
+70. Blue slids into red and red pushes back just a bit.
+71. The blue object is dragging the red object.
+72. The two circles collide, stick together, and move to the left at a slower pace than the previous video.
+74. The blue ball ran into the red ball and the blue ball dragged the red ball a bit but stayed on screen
+75. The blue ball slides into the red ball.  The balls then slowly move backwards together.
+76. The blue ball met the red ball and they moved slowly together. 
+77. The blue ball rolls into the red ball. The red ball stops the blue ball and they both move slightly to the left.
+78. Blue bumps red. It attracts red. 
+79. green shape runs into red shape and red shape stops its movement.
+80. the blue ball runs into the red ball but the red ball pushes it back
+82. The green ball moves towards the red and once they touched they started fighting.
+83. green ball rolls into the red ball bouncing off then dragging the red ball with it
+84. The blue ball rolled into the red ball, which pushed back at the blue ball.
+85. the blue ball pulled the red one
+87. The red ball push the blue ball.
+88. The blue ball meets the red ball, they slowly go left.
+89. The blue ball hits the red ball and then continue sto drive slowly.
+90. the blue ball rested at the side of the red ball
+91. the blue ball bumping the red ball and both balls slowly sliding to the left
+92. The red shape resists the blue one slightly.
+93. The blue ball runs into the red ball which pushes it backward.
+94. The blue object hits the red object and the red object pushes the blue object back the way it came.
+95. blue tries to drag red back , but is resisted by red
+96. a blue ball rolls into a red ball and they both stop moving
+97. The red ball attracts the blue ball and then they resist each other and push against one another.
+98. The blue ball tries to push the red ball, but it won't budge. 
+99. The blue ball attaches itself to the red ball
+100. Green ball bumps into red ball and gets pushed back slowly. 
+101. One person runs up and starts fighting with another person but the right person is stronger. 
+102. Blue tries to push red but red pushes back
+103. The blue sphere is attracting the red sphere and dragging it but the red sphere is resisting. 
+104. The blue ball rolled to the red ball, and the red ball pushed it back.
+105. The blue ball pulls the red ball to the left.
+107. Blue pushes red but red pushes back.
+108. they touched.
+109. The blue ball bumps the red ball and the red ball attempts to push back at the blue ball.
+110. the blue ball rolls into the red ball, and the red ball resists and pushes against the blue ball. 
+
+
+RESPONSE FOR: attraction
+=========================
+0. Red was trying to go left was blocked by blue
+1. Blue ball attracted the red one.
+3. The red ball began rolling to the left towards the grey square.  The teal ball exited the grey square heading right.  The teal ball hit the red ball  just outside the grey square. 
+5. they are being attracted to each other like magnets
+6. the red ball is moving towards the blue to touch each other as lovers would
+7. The red ball moves to  the left and impacts the blue ball as it emerges from the box.
+8. Both the blue ball and red ball are moving towards each other and eventually collide into one another.
+9. red and blue bump into each other
+10. Red ball prevents blue ball from moving
+11. The blue shape was stopped by the red shape.
+12. The red ball rolled into the blue ball.
+13. The blue and red circle slide into each other and cancel out each other's momentum. 
+14. The red and blue shape are attracted to each other
+15. The blue ball and the red ball bump each other.
+16. The dark green blue ball and red ball roll into each other and. They both  roll slightly backwards together as if to embrace.
+17. The balls run to meet each other.
+18. The red shape moves to the left while the blue shape moves to the right. The both bump into each other and stop.
+19. The red ball rolls to the left and meets the blue ball as it comes out.
+20. red ball rolls uphill stopping the blue ball from rolling.
+21. One person resisting the movement of another person.
+22. The red ball moved to the left and met with the blue ball and they attached. 
+23. The red circle started going towards the blue circle before it was on screen.
+25. the red ball rolls into the blue ball, like they are attracted to each other. 
+26. The red shape moves slightly towards the left then quickly moves to the blue shape.
+27. A red circle and blue circle bump in to each other. 
+31. two balls roling
+32. The red ball moved backwards and hit the blue ball.
+34. A blue ball and a red ball attract each other.
+35. a blue shape and a red shape move toward each other and make contact
+36. The 2 balls meet & kiss.
+37. A blue ball and a red ball pumping into each other gently.
+38. The red ball rolls back to the green ball, before it can even roll to it and causes it to hit back
+39. the red and blue ball roll at the same time and hit each other
+41. The red ball moves towards the blue ball and they collide.
+42. Both blue and red are people and are converging to what looks like a friendly hug. 
+43. the red ball rolls towards the wall towards the blue ball before the blue ball comes out
+44. The red ball rolls towards the blue ball.
+45. The blue and red ball are attracted to each other.
+46. red and blue ball are attracted to each other.
+47. BLUE AND RED BALLS MEET
+48. A red ball starts rolling towards a gray box. A green ball emerges from the gray box, and the collide.
+49. red ball collides with blue ball
+50. The blue ball was hit by the red ball.
+51. The blue ball and the red ball meet as friends.
+52. red moves towards blue 
+53. The red ball is on the move much earlier than the blue ball, meeting it much sooner than normal and is this time the aggressor/first actor. It pushes it slightly back.
+54. The red and blue ball meet.
+55. The red ball rolls backwards bumping into the blue ball.
+56. The red shape starts at the center of the frame and moves toward the blue shape as the blue shape comes into frame from the left and moves toward the red shape.
+57. Two circle are drawn together
+58. Red and blue ball roll into each other
+59. red ball rolls toward blue to block
+60. The red shape and the blue shape come towards each other. They make contact.
+61. Blue shape letting the red shape inside
+62. The red ball goes up to meet the blue ball and stop it. 
+63. The red shape is preventing the blue shape from going somewhere
+64. The red ball was trying to move, but was blocked by the blue.
+65. The red ball rolls backwards into the blue ball who is approaching
+66. The red shape and the blue shape are attracted to each other.
+67. Blue and red meet over to the left
+68. the red circle begins to roll to the left, when the blue circle emerges and the red circle stops it
+69. The red ball travels to join the blue
+70. Red slides to meet blue who is moving towards red.
+71. the objects were attracted to each other.
+72. The two circles move toward each other until they collide and stick together, motionless.
+74. The blue and red ball moved towards each other
+75. The balls slide into each other and meet at a mid point.
+76. The red and blue ball met together in the middle. 
+77. The red ball slowly rolls to the left while the blue ball rolls to the right. They bump into each other and both stop.
+78. Red starts attracting to blue.  they bump. 
+79. red shape moves to the green shape.
+80. the red ball runs left to stop the blue ball 
+82. The green ball slowly moves right, While the red ball comes to the left blocking the green ball.
+83. as the green ball rolls out the red ball is attracted to it as it gets closer eventually bumping into each other
+84. The blue and red balls rolled towards each other.
+85. The red ball met the blue one
+87. The red ball met the blue ball
+88. The red ball rolls to the left and runs into the blue ball.
+89. The red ball start to move towards the left and then the blue ball hits it to move in the opposite direction.
+90. The red ball rolled toward the blue ball
+91. red ball moving slowly to the left side and meeting up with the blue ball
+92. The shapes collide near the beginning.
+93. Red ball chases after the blue ball.
+94. The red and blue object run into each other.
+95. red and blue move toward each other and meet
+96. a red ball rolls into the blue ball and prevents it from moving forward.
+97. The red ball is attracted to the blue ball
+98. The red ball moves in on the blue shape, preventing it from moving right. 
+99. The red ball is attracted to the blue ball magnetically
+100. Red ball gets pulled towards green ball. 
+101. The left person stops the right person from entering a building. 
+102. Red and blue meet.
+103. The red and blue spheres are moving closer to each other. 
+104. The red ball and the blue ball rolled towards one another.
+105. The blue ball and the red ball are attracted to each other magnetically of sorts.
+107. They are attracted like magnets.
+108. the red bumped into the blue
+109. The red ball rolls back and the blue ball rolls forward and they bump into each other.
+110. the red ball rolls to the left and the blue ball appears and bumps the red ball. 
+
+
+RESPONSE FOR: attractionBounce
+=========================
+0. Blue was trying to go right but bounced off red
+1. the blue ball bumped the red one
+3. The red ball was rolling left towards the grey square.  The teal ball exited the grey square heading right.  The teal ball hit the red ball and was immediately repelled to the left towards the square.  The red ball was immediately repelled towards the right.  
+5. violently bumping off of each other
+6. both shapes are knocking into each other and going their seperate ways.   that is what happens in a collision when both are moving towards each other
+7. The red ball moves to the left and impacts the blue ball as it emerges from the box. On impact the balls reverse direction at a higher rate of speed.
+8. Both the blue ball and the red ball are moving quickly towards one another and collide, causing both balls to bounce off each other into different directions.
+9. red and blue are pushed into each other and both bounce back
+10. blue and red balls repel each other
+11. The blue shape and red shape bumped into each other and bounced back.
+12. The red ball rolled into the blue ball fast and the both went the opposite direction.
+13. The two circles slide into each other with a lot of force and bounce off each other, moving in opposite directions. 
+14. The red and blue shape bounce off each other
+15. The blue ball and the red ball bump each other violently.
+16. The dark green blue ball and red ball roll into into each other. These two balls also roll away from each other.
+17. The two balls run into each other and are knocked backwards.
+18. The red shape is quickly moving to the left. As is gets closer to the end, the blue shape quickly moves to the right, causing both shapes to bounces back.
+19. The red ball rolls to the left and bumps into the blue ball as it was coming out then rolls to the right and the blue rolls to the left. 
+20. blue ball rolls downhill a small amount while the red ball moves uphill fast pushing the blue ball back uphill then the red one goes back downhill.
+21. Two objects bouncing off each other.
+22. The red ball hit the blue ball in the left part of the screen and then went to the right. 
+23. The red and blue circles went towards each other, then bounced in the opposite direction.
+25. red ball and blue ball roll into one another at a similar pace, they bounce back in their opposite directions. 
+26. The red and blue shape bump each other and both move in opposite directions. 
+27. A red circle and a blue circle crash in to each other and bounce. 
+31. two balls bounce of each other
+32. The blue ball hit the red ball but both got pushed back.
+34. A red and a blue ball run into each other and bounce off.
+35. a blue ball and a red ball move toward each other, hit and roll apart
+36. Kiss & run.
+37. A red ball bumping into the blue ball.
+38. The red ball slams against the green ball very fast, which causes the green ball to roll back to its original position
+39. the blue and red ball roll at each other and bounce off 
+41. The red ball and blue ball move towards each other and bounce off each other.
+42. red and blue are attracting objects that rolled and hit each other and bounced off 
+43. The blue and red balls bump into each other and roll away from each other.
+44. The red ball tries to get to the blue ball but the blue ball pushes it away.
+45. The blue and red ball violently bounce off each other.
+46. red and blue balls violently bounce off each other.
+47. BLUE AND RED ATTACK AND GET REPELLED
+48. A green ball come from behind a gray box as a red ball rolls towards it. They hit each other and go off in opposite directions.
+49. Two balls knock each other back
+50. The red ball repelled the blue and was pushed back
+51. The blue ball and the red ball bounce off of each other.
+52. red and blue bump and then go backwards
+53. The two balls meet and repel each other, neither meeting for more than a split second.
+54. Both balls repel each other. 
+55. The red and blue ball roll into each other and then quickly away from each other.
+56. The red shape quickly moves from center of frame while the blue shape moves from the left of frame toward the center. The shapes collide and then bounce back to their starting positions
+57. Two circles collide and are pushed apart.
+58. Red and blue ball roll into eachother and both get knocked back
+59. red moves toward blue and blue pushes red back
+60. The red shape rolls towards the blue shape, as the blue shape is rolling to the red shape, they bump into each other.
+61. Two billiard balls knocked into each other
+62. The red ball bounces off the blue ball. 
+63. The red shape bumps into the blue shape
+64. The two balls were attracted to each other in some way.
+65. The red ball preemptively attacks the blue ball keeping him away
+66. The blue and red shapes bump into each other.
+67. Blue and red attract together then bounce away
+68. the blue circle and the red circle are moving towards each other and bounce off each other, going in opposite directions
+69. The balls travel toward each other, and bump, then go back in their opposite directions.
+70. Red slides towards blue and they both bounce off eachother.
+71. the objects repelled each other.
+72. The two circles collide, bounce off of each other, and move away from each other rapidly.
+74. The blue and red ball were attracted to each other then repelled each other
+75. The balls slide into each other and repel a good distance.
+76. The blue and red ball rammed each other and went in opposite directions. 
+77. The blue and red ball roll towards each other. They bump and then go in opposite directions.
+78. Red bumps into blue then they both slide away. 
+79. green shape and red shape run to each other and bounce off.
+80. the red ball and blue ball collide and push each other back
+82. The green and red balls bounce each other away.
+83. green and red ball roll into each other bouncing off each other
+84. The blue and red balls rolled into each other and then rolled away from each other.
+85. the balls bumped into one another
+87. The red ball bounce into blue ball.
+88. The red ball goes to the left and is blocked by the blue ball. When they collide the red ball goes fast to the right.
+89. The red ball moves to the left fast and hits the blue ball.  When it comes in contact it proceeds to bounce in the other direction.
+90. the red and blue ball bumped into each other
+91. the red ball bumping the blue ball and then slides back to the right side
+92. the shapes collide and ricochet back.
+93. The red ball and blue ball collide.
+94. The red and blue object collide with each other and then go their separate ways.
+95. blue and red repell each other after collision moving in opposite directions.
+96. a red ball bounces off a blue ball and rolls backwards
+97. They are initially attracted to one another and then they repel each other and move away
+98. The blue ball is going right and the red ball violently hits it, knocking it back. 
+99. The red and blue ball bump into each other and then run away
+100. Balls get attracted to each other then push each other away. 
+101. Two balls are rolled towards each other and deflect off each other when they hit.
+102. They approach each other and headbutt and get repelled.
+103. The red and blue spheres come in close, then move away from each other. 
+104. The red ball and the blue ball kind of "head butted" one another.
+105. The balls are attracted to each other and bump into each other with force.
+107. The balls are thrown at each other and repel
+108. the blue bumped the red.
+109. The red ball rolls back the blue ball rolls forward when they bump each other they both go in opposite directions.
+110. the red ball rolls to the left as the blue ball rolls to the right. they bump into each other and roll opposite directions
+
+
+RESPONSE FOR: fleeing
+=========================
+0. Blue was going right and scared off red. 
+1. the blue ball chased the red one away
+3.  The teal ball exited the grey square heading right.  The teal ball approached the red ball which was stationary.  The red ball went right when the teal ball got close.
+5. red ball is resisting the blue ball
+6. the red is moving away from the blue as the blue shape approaches.  red doesn't like blue
+7. The blue ball emerges from the box. As it nears the red ball, the red ball is repelled in the same direction that the blue ball is traveling. The blue ball comes to rest at the red ball's initial position.
+8. As the blue ball is moving towards the red ball; the red ball begins to flee or move away from the blue ball.
+9. blue moves towards red, who runs away
+10. Blue ball chases the red ball
+11. The blue shape entered and the red shape went away.
+12. The red ball rolled away before the blue ball could hit it.
+13. The blue circle moves towards the red circle, but the red circle actively slides away. The blue circle stops. 
+14. The red shape runs away from the blue shape and the blue shape comes to a stop
+15. The blue ball chases the red ball.
+16. The dark green blue ball  chases the red ball. The red ball rolls away from the other ball.
+17. The red ball runs away from the blue one.
+18. As the blue shape moves to the right, the red shape runs away. As the red shape runs away, the blue shape stops moving.
+19. The blue ball rolls forward toward the still red ball.  The red ball starts moving forward before the blue ball gets to the red ball. 
+20. the blue circle rolled downhill chasing the red one.the red one flied downhill while the blue circle stayed right where the red one was before it was bumped.
+21. One person chasing off another person.
+22. The blue ball was going towards the red, the red then resisted and went to the left without being hit. 
+23. The blue circle chased the red circle away to the right.
+25. blue ball rolls in, and the red ball rolls out before the blue ball reaches it.
+26. The blue shape appears from the left and the red shape moves away to the right. 
+27. A blue circle chases the red circle away.
+31. red  ball flees the blue one
+32. The blue ball moved towards the red ball but the red ball fled.
+34. A red ball is repelled by a blue ball.
+35. a blue shape moves toward a red shape. when it gets close, the red shape moves away. the blue shape stops
+36. The blue ball chases the red ball away
+37. A blue ball chasing after the red ball
+38. The green ball tries to hit against the red ball but it flees before this action could happen
+39. the blue ball rolls towards the red ball  but stops short while the red ball rolls away
+41. Thew blue ball chases towards the red ball, and the red ball flees.
+42. A blue person is scaring a red person away 
+43. the red ball rolls away from the blue ball
+44. The ball chases the red ball away.
+45. The blue ball chases off the red ball.
+46. Blue ball chased red ball off the scene to the right.
+47. BLUE BALL ATTACKS AND RED RUNS AWAY
+48. A green ball come from behind a gray box, rolls toward a red ball, and the red ball moves away before the green ball hits it.
+49. a red ball runs from the blue ball
+50. the blue ball hit the red and pushed it off the screen
+51. The blue ball chased the red ball away.
+52. blue comes to get red and red moves away without them touching 
+53. The blue ball repels the red ball not through force but through presence. It's clear that the blue ball's aim was the red ball, as its movement stops after it notices the red ball fleeing.
+54. The blue ball chases the red ball.
+55. The blue ball rolls toward the red ball, but the red ball rolls away.
+56. The blue shape rolls toward the stationary red shape but the red shape begins rolling away to the right before the blue shape can make contact, similar to same pole of magnets repelling one another.
+57. Two circles moving.
+58. Blue ball rolls toward red ball and then red ball rolls away before the blue ball can knock into it.
+59. blue moves toward red and red flees
+60. The blue shape rolls towards the red shape, but the red shape rolls away before the blue shape can touch it.
+61. Blue shape scaring off red shape
+62. The blue ball chases after the red ball. 
+63. The red shape is running away from the blue shape
+64. The blue ball was moving towards the red, but it ran away.
+65. When the blue ball comes on screen, the red ball runs away
+66. The blue shape repels the red shape.
+67. Blue moves to red but red moves away
+68. the blue circle moves to the right and when it gets close to the red circle, the red circle runs away
+69. The blue ball travels toward the red, and chases it off the screen.
+70. Blue chases red away and then stays.
+71. The red object fleed from the blue object.
+72. The blue circle moves toward the red circle.  Once in range, the red cirle moves away from the blue circle at the same pace, without ever touching.
+74. The blue ball moved towards the red ball and the red ball moved away from the blue ball
+75. The blue ball slides towards the red ball.  The red ball slides away before the blue ball can reach it.
+76. The blue ball pursued the red ball, but the red ball ran away. 
+77. The blue ball rolls towards the red ball. Before the blue ball reaches the red ball the red ball rolls away from the blue ball and the blue ball stops.
+78. Blue rolls out and red repels away. 
+79. green shape runs to red shape and red shape runs away.
+80. the blue ball scares the red ball away 
+82. The green ball moves toward the red, But the red flees before green can get there.
+83. green ball rolls out repelling the red ball away
+84. The blue ball rolled towards the red ball which rolled away.
+85. the blue ball tried to get close, but the red one ran away
+87. The red ball ran away from blue ball.
+88. The blue ball tries to approach the red ball and the red ball flees.
+89. The blue ball moves and when it gets close to the red ball it moves as well trying to get away from it.
+90. the red ball rolled away from the blue ball
+91. the blue ball chasing the red ball.
+92. The blue shape chases the red one.
+93. The red ball flees from the blue ball.
+94. The blue object tries to get close to the red object and the red object rolls away.
+95. as blue approaches, red flees in opposite direction. blue chases red.
+96. a red ball rolls away as a blue ball approaches.
+97. The blue ball is attracted to the red ball and the red ball is repelled and moves away. The blue ball chases the red.
+98. The blue ball approaches and the red ball moves away. 
+99. The blue ball repels the red ball out of the field
+100. Red ball moves away before green can bump into it. 
+101. The right person starts walking up to the left person and the left person runs away. 
+102. Blue wants to befriend red but red runs away.
+103. The red sphere flees from the approaching blue sphere, which stops rolling. 
+104. As the blue ball approached the red ball, the red ball rolled away.
+105. The blue ball attempts to chase the red and the red flees the frame.
+107. Red is repelled from blue as blue approached it. Perhaps they are the same polarity.
+108. the red ran away
+109. The red ball is fleeing from the blue ball.
+110. the blue ball rolls towards the red ball and the red ball rolls away from the blue ball. 
+
+
+RESPONSE FOR: repelling
+=========================
+0. Blue and red both went their separate ways. 
+1. the two balls were repeling each other
+3. The red and teal ball are in the center, touching.  The red ball rolls right and the teal ball rolls left.
+5. the balls are moving in opposite directions
+6. both shapes are moving apart from each other.  it is like two objects with the same electrical charge resisting each other 
+7. The red and blue balls were initially in contact. They simultaneously move in opposite directions at a low rate of speed.
+8. Both balls are side by side, and then they begin to move away from one another.
+9. blue and red move away from each other
+10. blue and red balls flee from each other
+11. The blue and red shapes moved away from each other.
+12. The red and blue balls were together, then started rolling opposite ways.
+13. The two shapes are sitting next to each other, then they actively break from each other and move in opposite directions.  
+14. the blue and red shape start off next to each other and repel each other
+15. The blue ball and the red ball flee from each other.
+16. The dark green blue ball and red ball roll close to each other and tap each other. The dark green blue ball and red ball roll roll away from each other in opposite directions.
+17. The two balls kiss and part.
+18. Both the red shape and the blue shape are near the center. They both slowly move away from each other in opposite directions.
+19. Both the blue and red ball move apart from each other going into opposite directions slowly. 
+20. both circles started attached together. Both balls then rolled away from each other.
+21. Two people running away from each other.
+22. The red and blue balls moved away from each other. 
+23. The blue and red circles started together, then started going in opposite directions away from each other.
+25. blue and red separate in opposite directions
+26. Both shapes are in the middle together then move in opposite directions.
+27. The blue and red circles go in opposite directions. 
+31. two balls bounce f rom each other
+32. The red ball and blue ball moved apart from each other.
+34. A red and a blue ball move in opposite directions.
+35. a blue shape and a red shape are in contact. then they move apart
+36. Kiss & separate
+37. A blue ball and a red ball are touching then they slide away from each other
+38. The green and red ball are against each other, yet fall back and roll the opposite of themselves
+39. the blue ball and the red ball start right next to each other, but they roll away from each other
+41. The blue ball and the red ball move away from each other.
+42. Blue and red are people who are saying goodbye and leaving. 
+43. The two balls roll away from each other.
+44. The blue and red balls roll away from each other.
+45. The blue and red ball move away from each other.
+46. blue and red ball roll away from each other.
+47. RED AND BLUE BALLS PART WAYS
+48. A red and a green ball are touching, then they roll off in opposite directions.
+49. two balls split apart
+50. the blue ball hit the red and they were both repelled
+51. The blue ball and the red ball seem to be parting as friends.
+52. red and blue move away from each other 
+53. The two balls slowly move away from each other without any impact or force. Possible repelling.  But most likely just objects as they move away slowly, no fleeing.
+54. Both balls move away from each other. 
+55. The red and blue balls roll slowly away from each other.
+56. Blue shape and red shape are touching and stationary in the center of the frame and then blue shape moves toward the left while red shape moves toward the right.
+57. Two circles move apart
+58. Blue and red ball roll away from eachother
+59. blue and red start together then move opposite directions
+60. The red shape and blue shape are touching, then they move away from each other.
+61. The shapes leaving each other after a goodbye hug
+62. The red and blue balls bounce off each other and head in opposite directions. 
+63. The blue shape and the red shape are moving away from each other. 
+64. Both balls seemed to be pulling away from the other.
+65. The red ball and the blue ball start together and roll away
+66. The red and blue shape move away from each other.
+67. Blue and red are together but then move away
+68. the red and blue circle are touching and the two start to roll away from each other slowly
+69. The blue and red ball start off connected, then travel in opposite directions
+70. Blue and red are moving away from eachother.
+71. the objects repelled each other.
+72. The two circles begin together, and then move away from each other slowly, in opposite directions.
+74. The blue and red ball were together at first then they seperated
+75. The balls start in the middle and slowly move away from one another.
+76. The red and blue balls started together and then moved apart in separate directions. 
+77. The blue and red ball sitting stationary begin to roll  away from one another.
+78. red and blue start together then repel apart. 
+79. green shape and red shape repel from each other.
+80. the blue ball and red ball separate from each other
+82. The green and red balls move away from each other.
+83. the 2 balls start together and slowly push away from each other
+84. The red and blue balls rolled away from each other.
+85. the two balls parted
+87. They went different way.
+88. The blue and red ball are in the middle together, then they each go their separate ways.
+89. The balls come in contact and hit each other forcing them in the opposite directions.
+90. the two balls roll away from one another
+91. both balls slowly sliding to opposite sides.
+92. The objects roll opposite directions.
+93. The two balls separate from one another.
+94. The red and blue object start out together, but then move farther apart.
+95. balls move away from each other.
+96. the red and blue ball roll away from each other
+97. They are together at first and then they repel each other and both move away.
+98. The red and blue ball part ways and separate. 
+99. The blue ball and red ball move away from each other
+100. Balls slide away from each other. 
+101. Two people hugging and walking away from each other. 
+102. they push each other slightly then leave.
+103. The blue sphere and the red sphere separate and go in opposite directions. 
+104. The blue ball and the red ball rolled away from one another.
+105. The balls are initially attracted to each other and separate.
+107. they are pushed at each other and bump off each other slowly
+108. they separated
+109. The red and blue ball go in opposite directions.
+110. the red and blue balls roll away from each other
+
+
+RESPONSE FOR: resisting
+=========================
+0. Blue was trying to go right, got blocked by red and pushed red to the right. 
+1. the two balls were pullin at each other
+3. The teal ball exited the grey square heading right.  The teal ball hit the red ball and was immediately repelled to the left towards the square by the red ball.  The red ball pushed the teal ball left a little ways towards the grey square.  The teal then pushed the red ball slightly to the right.  The red ball then fled right.
+5. the blue ball is trying to pull the red ball who gets away
+6. the blue approaches the red and they seem to fight and the blue pushes the red off in the other direction
+7. The blue ball impacts the stationary red ball. The red ball stops the progress of the blue ball and pushes it a short distance in the opposite direction. The red ball then reverses direction and exits the frame to the right.
+8. The blue ball moves into the red ball and the red ball fights back and moves the blue ball backwards. The blue ball resists and the red ball flees and moves away from the blue ball.
+9. blue tries to drag red back, but red gets away
+10. blue ball pushes red ball away
+11. The blue shape made contact with the red shape, the red shape pushed back then went away.
+12. The blue ball hit the red ball, the red ball then pushed a little the rolled quickly away.
+13. The blue shape moves to engage the red shape. The red shape resists and briefly pushes the blue shape back. The blue shape resists and the red shape then flees. 
+14. The blue  shape tries to pull the red shape with him but the red shape resists and breaks free.
+15. The blue ball pushes the red ball. The red ball pushes back and then the blue ball then pushes it back.
+16. The dark green blue ball  runs into the  red ball. The red ball rolls slightly into the other ball. Than both balls roll  slightly away from each other,
+17. The blue ball drags the red one, but the red ball frees itself and flees.
+18. The blue shape bumps into the red shape. The red shape stops it and pushes it back. The blue shape also pushes back, causing the red shape to run away.
+19. The blue ball comes out and touches the red ball.  The red ball pushes the blue ball slightly then rolls to the right while the blue ball stays still after. 
+20. the 1st ball rolled downhill bumping the second one, they then attached to each other moving uphill then down. The 1st ball stayed on the top of the hill while the second one rolled all the way downhill..
+21. Two people fighting with the one who started the fight winning and chasing off the other.
+22. The blue ball hit the red, attracted it slightly, then the red moved to the left free of the blue ball. 
+23. The blue circle hit the red circle, in which the red circle then pushed back, but then the blue circle pushed the red circle and then the red circle ran away.
+25. blue ball strikes red ball it attempts to pull red , but red runs away
+26. The blue shape moves and sticks to the red shape. They move together then the red shape breaks off and moves to the right.
+27. The blue circle attacks the red circle and the red circle runs away. 
+31. blue ball shoves the red one
+32. The red ball and blue ball looked attracted but ended up separating.
+34. A blue ball bumps a red ball. Both balls move in the opposite direction briefly, then the red moves quickly away in the original direction while the blue ball continues.
+35. a blue shape moves toward a stationary red shape. it makes contactr. the res shape pushes back, then the red shape moves away.
+36. Fight!
+37. The blue ball pushes the red ball and the red ball pushes back
+38. The green ball hits against the red ball, but the red ball tries to repel the hit but the green ball hits back and causes the red ball to roll back
+39. the blue ball rolls to the red ball, the red ball pushes back a little bit, only for the blue ball to push red and red finally rolls away
+41. The blue ball attaches to the red ball and starts to drag it. however, the red ball detaches and moves away.
+42. Blue and red get into a personal struggle and blue prevails causing red to flee. 
+43. the blue ball pulls the red ball towards it but the red ball pulls away.
+44. The red and blue ball fight for dominance before the red ball flee.
+45. The blue and red object get into a pushing match and the red object flees.
+46. blue ball bumps red ball and red ball pushes back and then runs away.
+47. BLUE AND RED BALLS ARE PLAYING
+48. A green ball come from behind a gray box, hits a red ball, the red ball pushes it back, stops its motion, and rolls off the screen.
+49. red ball is pushed back by blue ball
+50. the blue ball and red tugged and then seperated
+51. The blue ball and the red ball struggle, then the blue ball pushes the red ball to the right.
+52. blue tries to steal red but it didn't work
+53. The two balls meet, with the blue ball making first impact, and the red ball returns force, and the two struggle before fleeing.
+54. The blue ball prevents the red ball from moving left. 
+55. The blue balls rolls to the red ball, then they move back and forth together.
+56. Blue shape approaches stationary red shape, they join briefly and red shape pushes blue shape slightly backward before red shape runs away to the right.
+57. Two objects touch and move together before moving apart
+58. Blue ball bumps into red ball and connect for a second until the red ball rolls away
+59. blue bumps red and they push then red leaves
+60. The blue shape comes to the red shape as the red shape is  moving towards the blue shape. They come together and part.
+61. The two shapes fighting over something, then the red shape runs away
+62. The blue ball meets the red ball and they butt heads. 
+63. The blue shape bumps into the red shape and the red shape flees.
+64. Both balls were trying to get past the other. The red ball gave up.
+65. The blue ball pushes the red ball, the red ball attempts to resist but then runs away
+66. The blue shape grabs and throws the red shape.
+67. Blue goes to red and tries to drag it but then red gets away
+68. The blue circle rolls to the right and tries to pull the red circle to the left, but the red circle resists and quickly rolls back to the right
+69. The balls travel toward each other, connect, then the red travels off screen.
+70. Blue approaches red and red embraces blue and moves away.
+71. the objects are enemies that resisted each other.
+72. The two circles come together, move back and forth while together, and then separate, with the red circle moving quickly away.
+74. The blue ball attracted then repelled the red ball
+75. The blue ball slides into the red.  They go slightly backwards together and then the red ball goes away on its own.
+76. The blue ball ran into the red ball and they struggled together before the red ball ran away. 
+77. The blue ball rolls into the red ball. The red ball pushes back on the blue ball. The blue ball, then, pushes back on the red ball causing both to roll to the right.
+78. blue grabs red and trys to drag it in. red runs away. 
+79. green shape runs into red shape and they try to resist and push back but get pushed away.
+80. the blue and red ball clash and after some back and forth the red one flees
+82. The green ball fights the red ball and then push's it away.
+83. the green ball rolls out, pulls the red ball towards it then pushes it away.
+84. The red and blue rolled into each other, pushed and then rolled away.
+85. the blue ball tried to pull the red ball, but the red ball resisted
+87. They push each other 
+88. The blue ball meets the red ball, red ball pushes it and retreats.
+89. The blue ball hits the red ball.  The red ball pushes the blue ball and then moves swiftly away.
+90. the blue ball bumps then pulls and pushes the red ball
+91. both balls bumping each other and then the red ball sliding back to the right side
+92. The shapes resist and red gets flung away.
+93. The blue ball and red ball struggle with the blue ball winning.
+94. The blue object touches the red object and tries to pull it in it's direction before the red object breaks away.
+95. blue tries to drag red back to the left, but red resists and moves away to the right.
+96. the blue ball bounces the red ball into the other direction (rolls away)
+97. They are attracted and then the red balls flees.
+98. The blue and red ball shove each other. The red ball then flees. 
+99. The blue ball is attracted to the red ball and then they rock back and fourth together.
+100. Balls come together then separate. 
+101. The left person runs up and pushes the right person. The right person pushes back and runs away. 
+102. Blue tries to push red but red resists then runs away
+103. The blue and red spheres struggle before the red one flees. 
+104. The blue and red ball tried to push one another, and the blue ball won.
+105. The blue ball tries to pull the red ball, which ends up fleeing.
+107. there is a struggle and red gets repelled.
+108. walked together
+109. The blue ball bumps the red ball, the red ball pushes back and then flees.
+110. the blue ball bumps into the red ball. the red ball pushes against the blue ball. the blue ball pushes against the red ball. 
+
+

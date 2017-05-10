@@ -1,0 +1,260 @@
+<html>
+ <head>
+   <script type="text/javascript" src="http://forestbase.com/js/headjs/dist/head.load.min.js"></script>
+   <script type="text/javascript">
+     base = "http://forestbase.com/";
+     head.js(base + "/js/jquery/jquery.min.js",
+             base + "/js/underscore/underscore-min.js",
+             base + "/js/jquery-periodicalupdater/jquery.periodicalupdater.js",
+             base + "/js/highcharts/js/highcharts.js",
+             base + "/js/codemirror/js/codemirror.js",
+             base + "/js/forest.js",
+             base + "/js/editor.js");
+   </script>
+
+ </head>
+ <body>
+<p>Runnanble code version for modeling described in <i>'The mentalistic 
+basis of core social cognition: experiments in 
+preverbal infants and a computational model'</i>, by Hamlin, J. K., 
+Ullman, T., Tenenbaum, J., Goodman, N., and Baker, C.  </p>
+
+<p>IMPORTANT NOTES</p>
+
+<ol>
+<li>The model is written in Church, a probabilistic programming language for expressive description 
+of generative models (Goodman, Mansinghka, Roy, Bonawitz and Tenenbaum, 2008). A tutorial with runnable examples
+can be found <a href="http://projects.csail.mit.edu/church/wiki/Church" title="here">here</a>.</li>
+
+<li>In order to make the code short enough to run and be altered online, several functions were moved
+offline. These are loaded by the 'load tu-helpers.church' command. If you wish to play with the entire
+model, the definitions of these functions are given at the end of this page, after the runnable section. 
+Please download an implementation of Church from <a href="http://projects.csail.mit.edu/church/wiki/Church" 
+title="here">here</a>, and copy those functions along with the ones given in the online-runnable version.</li>
+
+<li>The code can be manipulated and changed online as you see fit, but keep in mind it cannot be made much longer.</li>
+
+<li>The original model was written in Cosh, a Church implementation developed by Andreas Stuhlm&uuml;ller that uses
+exact inference techniques. Calculating these exact solutions takes too long to run online (several minutes), so the version 
+below uses a noisy sampling approximation to the model. The more samples used, the closer the approximation to the exact solution 
+given in the paper (but the more time to run). You can download Cosh <a href="https://github.com/stuhlmueller/cosh"
+title="here">here</a> and run the full model if you prefer to use exact solutions.
+
+<li>If you have any questions about this page, please contact Tomer Ullman - tomeru@mit.edu .</li>
+</ol>
+
+<p>RUNNABLE MODEL</p>
+
+<textarea class="forest engine-bher">
+(load "tu-helpers.church")
+
+(define (infer-goal-lion observed-action world-trans)
+ (rejection-query
+  ;; Prior on Lion preferences, discretized beta
+  (define preference-prior (uniform-draw '(0.1 0.2 0.8 0.9)))
+  (define (food-prior) (multinomial '(lion-has-flower lion-has-duck)
+                                  (list preference-prior (- 1 preference-prior))))
+  (define lion-goal (make-lion-goal food-prior))
+  (define lion (make-agent "lion" lion-goal lion-action-prior))
+  (define (sampled-action)
+    (sample-state-action-single-agent world-trans lion))
+  ;; QUERY on the goal preferences
+  (food-prior)
+  ;; CONDITION on the observed Lion action, occuring several times as in the paper
+  (and (equal? observed-action (sampled-action))
+       (equal? observed-action (sampled-action))
+       (equal? observed-action (sampled-action))
+       (equal? observed-action (sampled-action)))))
+
+(define (infer-helpfulness-elephant observed-elephant-action observed-lion-action
+                               world-elephant-lion world-lion-alone elephant-had-visual-access?)
+ (rejection-query
+  ; If Elephant had visual access, infer goal of Lion, otherwise assume uniform prior
+  (define (inferred-food-prior)
+    (if elephant-had-visual-access?
+        (infer-goal-lion observed-lion-action world-lion-alone)
+        (multinomial '(lion-has-flower lion-has-duck) '(0.5 0.5))))
+  (define inferred-lion-goal (make-lion-goal inferred-food-prior))  
+  (define inferred-lion (make-agent "lion" inferred-lion-goal lion-action-prior))
+  (define helper-weight (discrete-dirichlet-3))
+  (define (helper-prior) (multinomial '(helper hinderer neutral) helper-weight))
+  (define elephant-goal (make-elephant-goal inferred-lion-goal helper-prior))
+  (define elephant (make-agent "elephant" elephant-goal elephant-action-prior))
+  (define (sampled-elephant-action)
+    (sample-state-action-single-agent world-elephant-lion elephant))
+  ;; QUERY on the Elephant disposition
+  (helper-prior)
+  ;; CONDITION on the observed Elephant action
+  (and (equal? observed-elephant-action (sampled-elephant-action))
+       (equal? observed-elephant-action (sampled-elephant-action))
+       (equal? observed-elephant-action (sampled-elephant-action)))))
+
+(define lion-alone-world-transition
+  (if (or (equal? condition 'condition1) (equal? condition 'condition2))
+                                        world-condition1&2-transition
+                                        world-condition3-transition))
+(define lion-and-elephant-world-transition world-A-transition)
+
+;;; OBSERVATIONS, change to suit condition
+;; Con 1: Baby & Elephant see Lion choose flower over duck 
+;; Con 2: Baby (but not Elephant) sees Lion choose flower over duck
+;; Con 3: Baby & Elephant see Lion choose flower, no duck present
+(define observed-lion-action 'lion-get-flower)
+(define observed-elephant-action 'elephant-open-right)
+(define condition 'condition1)
+
+;; COMMENT IN FOR CLASS 2 MODEL:
+;;(define elephant-had-visual-access? #t)
+;; COMMENT OUT FOR CLASS 2 MODEL:
+(define elephant-had-visual-access?
+  (if (or (equal? condition 'condition1) (equal? condition 'condition3)) #t #f))
+
+;; COMMENT IN TO RUN QUERY 1: What is the lion's goal preference?
+;(define (sample)
+ ;  (infer-goal-lion observed-lion-action lion-alone-world-transition))
+;; COMMENT IN TO RUN QUERY 2: What is the elephant's disposition?
+(define (sample)
+   (infer-helpfulness-elephant observed-elephant-action observed-lion-action
+                               lion-and-elephant-world-transition lion-alone-world-transition
+                               elephant-had-visual-access?))
+(hist (repeat 100 sample) "Samples")
+</textarea>
+
+<p>HELPER FUNCTIONS </p>
+<p>Following are the functions that appear in the tu-helpers.church file loaded at the beginning of the model:</p>
+<textarea class="forest engine-bher">
+
+(define (discrete-dirichlet-3)
+;; A discretized Dirichlet used later as a prior over the social preferences of the elephant
+;; (helpful/hindering/neutral). The prior is meant to convey the lack of knowledge over the
+;; social tendencies of the elephant. Future work and analysis may establish that babies in fact
+;; do have some expectations for this tendency, for example expecting agents to generally be 
+;; helpful.
+  (let ((ld  '((.0 .0 1.0) (.0 .1 .9) (.0 .2 .8) (.0 .3 .7) (.0 .4 .6) (.0 .5 .5) (.0 .6 .4) 
+               (.0 .7 .3) (.0 .8 .2) (.0 .9 .1) (.0 1.0 .0) (.1 .0 .9) (.1 .1 .8) (.1 .2 .7) 
+               (.1 .3 .6) (.1 .4 .5) (.1 .5 .4) (.1 .6 .3) (.1 .7 .2) (.1 .8 .1) (.1 .9 .0) 
+               (.2 .0 .8) (.2 .1 .7) (.2 .2 .6) (.2 .3 .5) (.2 .4 .4) (.2 .5 .3) (.2 .6 .2) 
+               (.2 .7 .1) (.2 .8 .0) (.3 .0 .7) (.3 .1 .6) (.3 .2 .5) (.3 .3 .4) (.3 .4 .3)
+               (.3 .5 .2) (.3 .6 .1) (.3 .7 .0) (.4 .0 .6) (.4 .1 .5) (.4 .2 .4) (.4 .3 .3) 
+               (.4 .4 .2) (.4 .5 .1) (.4 .6 .0) (.5 .0 .5) (.5 .1 .4) (.5 .2 .3) (.5 .3 .2)
+               (.5 .4 .1) (.5 .5 .0) (.6 .0 .4) (.6 .1 .3) (.6 .2 .2) (.6 .3 .1) (.6 .4 .0) 
+               (.7 .0 .3) (.7 .1 .2) (.7 .2 .1) (.7 .3 .0) (.8 .0 .2) (.8 .1 .1) (.8 .2 .0)
+               (.9 .0 .1) (.9 .1 .0) (1.0 .0 .0)))))
+    (multinomial ld (make-list (length ld) (/ 1 (length ld)))))
+
+;;; *** CONSTANTS
+ ; probability of choosing an action regardless of goal
+(define no-goal-epsilon 0.000001)
+;; *** END of Constants 
+
+;;; *** AGENT CONSTRUCTORS
+;; Self-explanatory in terms of the construction.
+;; this makes it easier to pass around agents
+;; especially in a multi-agent setting.
+
+(define (make-agent name goal action-prior)
+  (list name goal action-prior))
+
+(define (get-agent-name agent) (first agent))
+(define (get-agent-goal agent) (second agent))
+(define (get-agent-action-prior agent) (third agent))
+;;*** END of Agents Constructors
+
+;; LION AGENT CONSTRUCTION
+;; The lion as a prior chooses uniformly between
+;; the actions available to it:
+;; getting the duck, getting the flower.
+(define lion-possible-actions '(lion-get-duck lion-get-flower))
+(define (lion-action-prior) (uniform-draw lion-possible-actions))
+
+;; Note1:  this is NOT the goal, this
+;; is the construction of the goal predicate.
+;; For example, if the goal prior is (0.9 flower, 0.1 duck), then the
+;; lion might end up with the goal of either flower or duck, it just
+;; has a higher probability of going for the flower. This goal-prior
+;; is essentialy the long-term preference.
+;; NOTE 2: The predicate is drawn anew each time
+(define (make-lion-goal goal-prior)
+  (lambda (state)
+    (let ((goal-food (goal-prior)))
+      (equal? state goal-food))))
+;; ***** End of Lion Agent construction 
+
+
+;;;ELEPHANT AGENT CONSTRUCTION
+;; The ELEPHANT as a prior chooses uniformly between the actions available to it:
+;; opening and closing gates.
+(define elephant-possible-actions '(elephant-open-right elephant-open-left))
+(define (elephant-action-prior) (uniform-draw elephant-possible-actions))
+
+;; The elephant either adopts the lion's goal, or a predicate of NOT(lion's goal)
+;; helping-hindering is also decided each time anew, drawn from prior.
+;; So, for example, if the helper-prior is (0.9 help, 0.1 hinder) the elephant
+;; might still hinder, it's just less likely. The prior is the quality we will
+;; be querying over as the elephant's general "helpfulness".
+
+;;elephant with 3 possible states - help, hinder and random/neutral.
+;;Neutral guy randomly adopts any world position as a goal.
+(define (make-elephant-goal lion-goal helper-prior)
+  (lambda (state)
+    (let ((elephant-disposition (helper-prior)))
+          (if (equal? elephant-disposition 'helper)
+              (lion-goal state)
+              (if (equal? elephant-disposition 'hinderer)
+                  (not (lion-goal state))
+                  ; if not helper or hinderer, then neutral, meaning any state
+                  ; is basically fine
+                  #t)))))
+
+;; *** END of Lion Agent Construction
+
+;;; *** WORLD TRANSITION FUNCTIONS
+
+;; Condition 1&2: Both objects are in play and retrievable.
+(define (world-condition1&2-transition action)
+    (case action
+    (('lion-get-duck) 'lion-has-duck)
+    (('lion-get-flower) 'lion-has-flower)
+    ; Any other action stays in opening position
+    (else 'start)))
+
+;; Condition 3: Only one object is in play and retrievable
+(define (world-condition3-transition action)
+    (case action
+    (('lion-get-flower) 'lion-has-flower)
+    ; Any other action stays in opening position
+    (else 'start)))
+
+;; Setup of world A.
+;; Both objects are in play:
+;; duck behind left, flower behind right.
+;; actions for the elephant: one for opening each gate.
+;; The experiment is such that the lion retrieves whatever
+;; is behind the gate, so there's no added rollout. 
+(define (world-A-transition action)
+  (case action
+    (('elephant-open-right) 'lion-has-flower)
+    (('elephant-open-left) 'lion-has-duck)
+    (else 'gates-closed)))
+
+;; *** END of world transition functions 
+
+;;; *** ACTION PLANNING AS QUERY
+(define (sample-state-action-single-agent trans agent)
+   (rejection-query
+             ; get the goal
+             (define goal? (get-agent-goal agent))
+             ; take an action
+             (define action ((get-agent-action-prior agent)))
+             ; find the resulting state
+             (define end-state (trans action))             
+             ;; query on the action
+             action             
+             ;; condition on getting to the goal
+             (or (goal? end-state) (flip no-goal-epsilon))))
+
+;; *** END of action planning as query ***
+</textarea>
+
+
+</html>

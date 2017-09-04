@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.14)  3 SEP 2017 16:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.14)  4 SEP 2017 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -123,7 +123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--327
 Here is how much of TeX's memory you used:
  560 strings out of 493311
  6840 string characters out of 6137856
- 62514 words of memory out of 5000000
+ 63514 words of memory out of 5000000
  4067 multiletter control sequences out of 15000+600000
  6058 words of font info for 22 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -137,7 +137,7 @@ b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
 usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on tomerCV.pdf (6 pages, 130629 bytes).
+Output written on tomerCV.pdf (6 pages, 130548 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream

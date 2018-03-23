@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tomer D. Ullman</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!-- Scripts -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-viewport.min.js"></script>
+		<script src="js/util.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+			<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
+
+		<script type="text/javascript">
+		 // Google tracking code
+drawFinalPositions		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-47695496-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h2 id="logo">Tomer D. Ullman</h2>
+							<img src="img/tomerWebpage.jpg" alt="Picture" width=240 border=0>
+							<br>
+							<span style="font-size: 24px;">tomeru at mit dot edu</span>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a class="icon" href="#research"><span>Research</span></a></li>
+									<li><a class="icon" href="#thesis"><span>Thesis</span></a></li>
+									<li><a class="icon" href="#cv"><span>CV</span></a></li>
+									<li><a class="icon" href="#publications"><span>Publications</span></a></li>
+									<li><a class="icon" href="#other"><span>Other</span></a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="research" class="container">
+						<div id="content">
+							<!-- Post -->
+								<article class="box post">
+									</header>
+										<h2>Research</h2>
+									</header>
+									<p> I am a postdoctoral associate in the <a href="http://web.mit.edu/cocosci/josh.html">Computational Cognitive Science</a> group at MIT, and the <a href="https://software.rc.fas.harvard.edu/lds/">Lab for Developmental Studies</a> at Harvard. I study people's common-sense reasoning about physics and psychology, using computational models and behavioral experiments with children and adults. My research is funded by the <a href="http://cbmm.mit.edu/">Center for Brains, Minds and Machines</a>.
+										<br>
+									<p>
+								</article>
+						</div>
+					</div>
+					<br>
+					<div id="thesis" class="container">
+						<div id="content">
+							<!-- Post -->
+								<article class="box post">
+									</header>
+										<h2>Thesis</h2>
+									</header>
+									<p> 
+									My thesis was on the nature and origin of intuitive theories, available <a href="thesis/tomerThesis.pdf"> here</a>.
+									<p>
+								</article>
+						</div>
+					</div>
+					<br>
+					<div id="cv" class="container">
+						<div id="content">
+							<!-- Post -->
+								<article class="box post">
+									</header>
+										<h2>CV</h2>
+									</header>
+									<p> 
+									A current CV can be found <A href="tomerCV.pdf"> here</a>.
+									<p>
+								</article>
+						</div>
+					</div>
+					<br>
+
+					<div id="publications" class="container">
+						<div id="content">
+							<!-- Post -->
+								<article class="box post">
+									</header>
+										<h2>Publications</h2>
+									</header>
+									<ul class="default">
+                                                                        <li>
+                                                                        Chang, M. B., Ullman, T. D., Torralba, A., and Tenenbaum, J. B. (2017), <A href="papers/iclr2017.pdf"> A compositional object-based approach to learning physical dynamics. </a><i>International Conference on Learning Representations (ICLR)</i>
+                                                                        </li>
+									<li>
+									Lake, B. M., Ullman, T. D., Tenenbaum, J. B., and Gershman, S. J. (in press), <A href="papers/Lake16.pdf"> Building machines that learn and think like people. </a><i>Behavioral and Brain Sciences</i>  
+									</li>
+									<li>
+									T. D. Ullman, Y. Xu and N. D. Goodman (2016), <a href="papers/spatialImplicature.pdf"> The Pragmatics of Spatial Language. </a><i>Proceedings of the 38th Annual Conference of the Cognitive Science Society.</i>  
+									</li> 
+									<li>
+									M. Kryven, T. D. Ullman, W. Cowan and J. B. Tenenbaum (2016), <a href="papers/intelligenceAttribution.pdf"> Outcome or Strategy? A Bayesian Model of Intelligence Attribution. </a><i>Proceedings of the 38th Annual Conference of the Cognitive Science Society.</i>  
+									</li> 
+									<li>
+									T. D. Ullman, M. Siegel, J. B. Tenenbaum and S. J. Gershman (2016), <a href="papers/coalescing-vapors.pdf" </a>Coalescing the vapors of human experience into a viable and meaningful comprehension </a><i>Proceedings of the 38th Annual Conference of the Cognitive Science Society.</i>  
+									</li> 
+  									<li>
+    								T. Gerstenberg, T. D. Ullman, M. Kleiman-Weiner, D. A. Lagnado and J. B. Tenenbaum (2014), <A href="http://web.mit.edu/tger/www/papers/Wins%20above%20replacement%20(Gerstenberg%20et%20al,%202014).pdf"> Wins above replacement: Responsibility attributions as counterfactual replacements. </a> <i>Proceedings of the Thirty-Sixth Annual Conference of the Cognitive Science society</i>.
+									</li>
+									<li>
+									T. D. Ullman, A. Stuhlm&uuml;ller, N. D. Goodman, J. B. Tenenbaum (2014), <a href="papers/cogsci2014_physics.pdf"> Learning physics from dynamical scenes</a>.  <i>Proceedings of the Thirty-Sixth Annual Conference of the Cognitive Science society</i>. 
+  									</li>
+  									<li>
+									J. K. Hamlin, T. D. Ullman, J. B. Tenenbaum, N. D. Goodman and C. L. Baker (2013), <A href="http://onlinelibrary.wiley.com/doi/10.1111/desc.12017/abstract">The mentalistic basis of core social cognition: Experiments in preverbal infants and a computational model</a>. <i>Developmental Science</i>.
+									</li>
+									<li>
+									E. B. Bonawitz, T. D. Ullman, A. Gopnik and J. B. Tenenbaum (2012), Sticking to the evidence? A computational and behavioral case study of micro-theory change in the domain of magnetism. <i>ICDL (best paper award: experiment combined with computational model)</i>.
+									</li>
+									<li>
+									T. D. Ullman, N. D. Goodman and J. B. Tenenbaum (2012), <a href="papers/tlss-final.pdf">Theory learning as stochastic search in the language of thought</a>. <i>Cognitive Development</i>.
+									</li>
+									<li>
+  									T. D. Ullman*, J. M. McCoy*, A. Stuhlm&uuml;ller, T. Gerstenberg and J. B. Tenenbaum (2012), <a href="papers/blame-cogsci2012.pdf">Why blame Bob? Probabilistic generative models, counterfactual reasoning, and blame attribution</a>. <i>Proceedings of the Thirty-Third Annual Conference of the Cognitive Science society</i>.
+									</li>
+									<li>
+									T. D. Ullman, N. D. Goodman and J. B. Tenenbaum (2010), <a href="papers/tlss2010.pdf">Theory acquisition as stochastic search:</a> <i>Proceedings of the Thirty-Second Annual Conference of the Cognitive Science Society</i>. 
+									</li>
+									<li>
+									T. D. Ullman, C. L. Baker, O. Macindoe, O. Evans, N. D. Goodman and J. B. Tenenbaum (2010), <a href="papers/nips2010.pdf">Help or hinder: Bayesian models of social goal inference</a>. <i>Advances in Neural Information Processing Systems</i> (Vol. 22, pp. 1874-1882).
+									</li>
+									<li>
+									N. D. Goodman, T. D. Ullman, and J. B. Tenenbaum (2009), <a href="http://www.mit.edu/~ndg/papers/LTBC_v2.pdf">Learning a theory of causality: </a> <i>Proceedings of the Thirty-First Annual Conference of the Cognitive Science Society</i>. 
+									</li>
+									</ul class="default">
+								</article>						
+						</div>
+					</div>
+					<br><br>
+					
+					<div id="other" class="container">
+						<header>
+							<h2>Other</h2>
+						</header>
+						<div class="row">
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+										<a href="https://www.youtube.com/watch?v=Zm-sQnazFAQ" class="image featured"><img src="img/bahlogo.png" alt="" /></a>
+										<header>
+											<h3>Why do babies cry?</h3>
+										</header>
+										<p>My theory on the origin of extreme infant vocalization.</p>
+									</section>
+
+							</div>
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+										<a href="http://www.cafepress.com/brainybibsetal" class="image featured"><img src="img/brainy_bibs.png" alt="" /></a>
+										<header>
+											<h3>Brainy Bibs</h3>
+										</header>
+										<p>Dress your young one in the finest scientific apparel.</p>
+									</section>
+
+							</div>
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+										<a href="photos.html" class="image featured"><img src="img/magnetiles.png" alt="" /></a>
+										<header>
+											<h3>Lion Cub</h3>
+										</header>
+										<p>The lion cub I am rearing against Rome, and other photos.</p>
+									</section>
+							</div>
+
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+										<a href="http://www.posteriorscience.net/" class="image featured"><img src="img/posterior_science.png" alt="" /></a>
+										<header>
+											<h3>Posterior Science Forum</h3>
+										</header>
+										<p>Writings on science.</p>
+									</section>
+							</div>
+						</div>
+						<br><br><br><br>
+						<ul>
+						<font size="1">Design based on <a href="http://html5up.net">HTML5 UP</a></font>
+					</ul>
+
+					</div>
+				</div>
+		</div>
+	</body>
+</html>

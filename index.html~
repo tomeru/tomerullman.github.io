@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tomer D. Ullman</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!-- Scripts -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-viewport.min.js"></script>
+		<script src="js/util.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+			<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143365354-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-143365354-1');
+		</script>
+
+
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h2 id="logo">Tomer D. Ullman</h2>
+							<img src="img/tomerWebpage.jpg" alt="Picture" width=300 border=0>
+							<br>
+							<span style="font-size: 24px;">tomerullman at gmail dot com</span>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a class="icon" href="#research"><span>Research</span></a></li>
+									<li><a class="icon" href="#thesis"><span>Thesis</span></a></li>
+									<li><a class="icon" href="#cv"><span>CV</span></a></li>
+									<li><a class="icon" href="#publications"><span>Publications</span></a></li>
+									<li><a class="icon" href="#other"><span>Other</span></a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="research" class="container">
+						<div id="content">
+							<!-- Post -->
+								<article class="box post">
+									</header>
+										<h2>Research</h2>
+									</header>
+									<p> I am an Assistant Professor at Harvard's Department of Psychology. I study computation, cognition, and development, with a focus on intuitive theories and people's common-sense reasoning about physics and psychology. I'm also a member of the <a href="http://cbmm.mit.edu/">Center for Brains, Minds and Machines</a>..
+										<br>
+										
+								</article>
+						</div>
+					</div>
+					<br>
+					<div id="thesis" class="container">
+						<div id="content">
+							<!-- Post -->
+								<article class="box post">
+									</header>
+										<h2>Thesis</h2>
+									</header>
+									<p> 
+									My thesis was on the nature and origin of intuitive theories, available <a href="thesis/tomerThesis.pdf"> here</a>.
+									<p>
+								</article>
+						</div>
+					</div>
+					<br>
+					<div id="cv" class="container">
+						<div id="content">
+							<!-- Post -->
+								<article class="box post">
+									</header>
+										<h2>CV</h2>
+									</header>
+									<p> 
+									A current CV can be found <A href="tomerCV.pdf"> here</a>.
+									<p>
+								</article>
+						</div>
+					</div>
+					<br>
+
+					<div id="publications" class="container">
+						<div id="content">
+							<!-- Post -->
+								<article class="box post">
+									</header>
+										<h2>Publications</h2>
+									</header>
+									<ul class="default">
+
+
+
+
+									<li>
+									McCoy, J.P.*, Paul, LA*, and Ullman, T.D.* (forthcoming), <A href="papers/McCoy-Paul-Ullman-Modal-Prospection.pdf">Modal Prospection.</a> <i> Metaphysics and Cognitive Science, eds. Alvin Goldman and Brian McLaughlin. Oxford University Press (US) </i>
+									</li>	
+
+									<li>
+									McCoy, J.P., and Ullman, T.D. (2019), <A href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217513">Judgments of effort for magical violations of intuitive physics.</a> <i> PLOS ONE </i><A href="https://osf.io/75qkg/">(osf)</a>
+									</li>		
+
+									<li>
+									McCoy, J.P., and Ullman, T.D. (2019), <A href="https://www.sciencedirect.com/science/article/pii/S0022103117303980">A Minimal Turing Test.</a> <i> Journal of Experimental Social Psychology </i><A href="https://osf.io/qgme2/">(osf)</a>
+									</li>	
+
+									<li>
+									Gerstenberg, T., Ullman, T.D., Nagel, J., Kleiman-Weiner, M., Lagnado, D., and Tenenbaum, J.B. (2018), <A href="https://www.sciencedirect.com/science/article/pii/S0010027718300817">Lucky or clever? From changed expectations to attributions of responsibility.</a> <i>Cognition.</i>
+									</li>
+									<li>
+                                     Ullman, T. D., Spelke, E.S., Battaglia, P. and Tenenbaum, J.B.  (2017), Mind Games: Game Engines as an Architecture for Intuitive Physics. <i>Trends in Cognitive Science</i> <A href="papers/ticsMindGames.pdf">(accepted manuscript)</a> <A href="http://www.sciencedirect.com/science/article/pii/S1364661317301134">(link to paper)</a>
+                                     </li>		
+                                     <li>
+                                     Liu, S., Ullman, T. D., Tenenbaum, J.B., and Spelke, E.S., (2017), Ten-month-old infants infer the value of goals from the costs of actions. <i>Science</i> <A href="https://psyarxiv.com/78qd4/">(preprint)</a> <A href="https://osf.io/mykph/">(osf)</a>
+                                     </li>	
+
+									<li>
+                                     Ullman, T. D., Stuhlm&uuml;ller, A., Goodman, N.D. and Tenenbaum, J.B.  (2017), <A href="papers/lpds_cog_psy.pdf"> Learning physical parameters from dynamic scenes. </a><i>Cognitive Psychology</i>
+                                     </li>
+									<li>
+                                     Ullman, T. D., Alonso-Diaz, S., Ferringo, S., Zahid, S. and Kidd, C. (2017), <A href="papers/weightMatters.pdf"> Weight matters: The role of physical weight in non-physical language across age and culture. </a><i>Proceedings of the 39th Annual Meeting of the Cognitive Science Society</i>
+                                     </li>
+                                     <li>
+                                     Chang, M. B., Ullman, T. D., Torralba, A., and Tenenbaum, J. B. (2017), <A href="papers/iclr2017.pdf"> A compositional object-based approach to learning physical dynamics. </a><i>International Conference on Learning Representations (ICLR)</i>
+                                     </li>
+									<li>
+									Liu, S., Ullman, T. D., Tenenbaum, J. B., and Spelke, E. S. (2017). <A href="papers/liu_cogsci2017.pdf"> What’s worth the effort: Ten-month-old infants infer the value of goals from the costs of actions.</a><i> Proceedings of the 39th Annual Meeting of the Cognitive Science Society</i>
+									</li>
+									<li>
+									Kryven, M., Ullman, T. D., Cowan, W., and Tenenbaum, J. B. (2017). <A href="papers/kryven_cogsci2017.pdf"> Thinking and guessing: Bayesian and empirical models of how humans search.</a><i> Proceedings of the 39th Annual Meeting of the Cognitive Science Society</i>
+									</li>									
+									<li>
+									Lake, B. M., Ullman, T. D., Tenenbaum, J. B., and Gershman, S. J. (2016), <A href="papers/Lake16.pdf"> Building machines that learn and think like people. </a><i>Behavioral and Brain Sciences</i>  
+									</li>
+									<li>
+									T. D. Ullman, Y. Xu and N. D. Goodman (2016), <a href="papers/spatialImplicature.pdf"> The Pragmatics of Spatial Language. </a><i>Proceedings of the 38th Annual Conference of the Cognitive Science Society.</i>  
+									</li> 
+									<li>
+									M. Kryven, T. D. Ullman, W. Cowan and J. B. Tenenbaum (2016), <a href="papers/intelligenceAttribution.pdf"> Outcome or Strategy? A Bayesian Model of Intelligence Attribution. </a><i>Proceedings of the 38th Annual Conference of the Cognitive Science Society.</i>  
+									</li> 
+									<li>
+									T. D. Ullman, M. Siegel, J. B. Tenenbaum and S. J. Gershman (2016), <a href="papers/coalescing-vapors.pdf" </a>Coalescing the vapors of human experience into a viable and meaningful comprehension </a><i>Proceedings of the 38th Annual Conference of the Cognitive Science Society.</i>  
+									</li> 
+  									<li>
+    								T. Gerstenberg, T. D. Ullman, M. Kleiman-Weiner, D. A. Lagnado and J. B. Tenenbaum (2014), <A href="http://web.mit.edu/tger/www/papers/Wins%20above%20replacement%20(Gerstenberg%20et%20al,%202014).pdf"> Wins above replacement: Responsibility attributions as counterfactual replacements. </a> <i>Proceedings of the Thirty-Sixth Annual Conference of the Cognitive Science society</i>.
+									</li>
+									<li>
+									T. D. Ullman, A. Stuhlm&uuml;ller, N. D. Goodman, J. B. Tenenbaum (2014), <a href="papers/cogsci2014_physics.pdf"> Learning physics from dynamical scenes</a>.  <i>Proceedings of the Thirty-Sixth Annual Conference of the Cognitive Science society</i>. 
+  									</li>
+  									<li>
+									J. K. Hamlin, T. D. Ullman, J. B. Tenenbaum, N. D. Goodman and C. L. Baker (2013), <A href="http://onlinelibrary.wiley.com/doi/10.1111/desc.12017/abstract">The mentalistic basis of core social cognition: Experiments in preverbal infants and a computational model</a>. <i>Developmental Science</i>.
+									</li>
+									<li>
+									E. B. Bonawitz, T. D. Ullman, A. Gopnik and J. B. Tenenbaum (2012), Sticking to the evidence? A computational and behavioral case study of micro-theory change in the domain of magnetism. <i>ICDL (best paper award: experiment combined with computational model)</i>.
+									</li>
+									<li>
+									T. D. Ullman, N. D. Goodman and J. B. Tenenbaum (2012), <a href="papers/tlss-final.pdf">Theory learning as stochastic search in the language of thought</a>. <i>Cognitive Development</i>.
+									</li>
+									<li>
+  									T. D. Ullman*, J. M. McCoy*, A. Stuhlm&uuml;ller, T. Gerstenberg and J. B. Tenenbaum (2012), <a href="papers/blame-cogsci2012.pdf">Why blame Bob? Probabilistic generative models, counterfactual reasoning, and blame attribution</a>. <i>Proceedings of the Thirty-Third Annual Conference of the Cognitive Science society</i>.
+									</li>
+									<li>
+                                                                        N. D. Goodman, T. D. Ullman, and J. B. Tenenbaum (2011), <a href="papers/LTBC.pdf">Learning a theory of causality.</a> <i>Psychological Review</i>.
+                                                                        </li>
+                                                                        <li>
+									T. D. Ullman, N. D. Goodman and J. B. Tenenbaum (2010), <a href="papers/tlss2010.pdf">Theory acquisition as stochastic search:</a> <i>Proceedings of the Thirty-Second Annual Conference of the Cognitive Science Society</i>. 
+									</li>
+									<li>
+									T. D. Ullman, C. L. Baker, O. Macindoe, O. Evans, N. D. Goodman and J. B. Tenenbaum (2010), <a href="papers/nips2010.pdf">Help or hinder: Bayesian models of social goal inference</a>. <i>Advances in Neural Information Processing Systems</i> (Vol. 22, pp. 1874-1882).
+									</li>
+									<li>
+									N. D. Goodman, T. D. Ullman, and J. B. Tenenbaum (2009), <a href="papers/LTBC_v2.pdf">Learning a theory of causality.</a> <i>Proceedings of the Thirty-First Annual Conference of the Cognitive Science Society</i>. 
+									</li>
+									</ul class="default">
+								</article>						
+						</div>
+					</div>
+					<br><br>
+					
+					<div id="other" class="container">
+						<header>
+							<h2>Other</h2>
+						</header>
+						<div class="row">
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+										<a href="https://www.youtube.com/watch?v=Zm-sQnazFAQ" class="image featured"><img src="img/bahlogo.png" alt="" /></a>
+										<header>
+											<h3>Why do babies cry?</h3>
+										</header>
+										<p>My theory on the origin of extreme infant vocalization.</p>
+									</section>
+
+							</div>
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+										<a href="http://www.cafepress.com/brainybibsetal" class="image featured"><img src="img/brainy_bibs.png" alt="" /></a>
+										<header>
+											<h3>Brainy Bibs</h3>
+										</header>
+										<p>Dress your young one in the finest scientific apparel.</p>
+									</section>
+
+							</div>
+							<div class="4u 12u(mobile)">
+
+								<!-- Feature -->
+									<section>
+										<a href="photos.html" class="image featured"><img src="img/magnetiles.png" alt="" /></a>
+										<header>
+											<h3>Lion Cub</h3>
+										</header>
+										<p>The lion cub I am rearing against Rome, and other photos.</p>
+									</section>
+							</div>
+
+
+						</div>
+						<br><br><br><br>
+						<ul>
+						<font size="1">Design based on <a href="http://html5up.net">HTML5 UP</a></font>
+					</ul>
+
+					</div>
+				</div>
+		</div>
+	</body>
+</html>

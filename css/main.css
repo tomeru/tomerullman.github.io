@@ -9,7 +9,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, , ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -1153,7 +1153,7 @@
 
 	hr {
 		border: 0;
-		border-top: solid 1px #ddd;
+		border-top: solid 2px #ddd;
 	}
 
 	blockquote {
@@ -1255,14 +1255,27 @@
 	ul.links {
 		list-style: decimal;
 		margin-left: 1em;
+		display:block;
 	}
 
+/*
 		ul.links li {
 			display: inline;
-			border-left: solid 1px #d0d0d0;
+			border-left: solid 20px #d0d0d0;
 			padding-left: 1em;
 			margin-left: 1em;
+		}*/
+
+
+		ul.links li {
+			position:relative;
+    		display: inline-block;
+    		font-size: 1.5em;
+    		padding-left: 2em;
+    		padding-right: 2em;
+			/*margin-left: 1em;*/
 		}
+
 
 			ul.links li:first-child {
 				margin-left: 0;
@@ -1512,6 +1525,71 @@
 				background: #878787;
 			}
 
+
+
+
+/*************************************************
+ *  Button size override
+ *************************************************/
+
+.btn {
+  padding: .3rem;
+  font-size: .8rem;
+  line-height: .5;
+  border-radius: .3rem;
+}
+
+.btn.btn-sm {
+  padding: .4rem;
+  font-size: .6rem;
+  border-radius: .2rem;
+}/*small button size*/
+
+/*************************************************
+ *  Button Primary: Color override
+ **************************************************/
+
+.btn-primary {
+  border-color: #2e2e2e;
+  background:#4c4699;/*what????*/
+}
+
+.btn-outline-primary {
+  /*border-color: #3c2f2f;*/
+  border: 1px solid #e9e9e9;
+  color: #3c2f2f;/*text color*/
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:visited,
+.open > .dropdown-toggle.btn-primary {
+  background: #fff;/*background color of bts-primary*/
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:active,
+.btn-outline-light.active {
+  background: #4c4699;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #e4e4e4;
+  border-color: #3c2f2f;
+
+}
+
+.btn-outline-primary:hover {
+  color: #4c4699; /*textcolor when hover*/
+  background-color: #e4e4e4;/*background when hover*/
+  /*border-color: #3c2f2f;*/
+}
+
+
 /* Box */
 
 	.box .excerpt .date {
@@ -1659,7 +1737,7 @@
 			border: 0;
 			text-decoration: none;
 			text-transform: uppercase;
-			font-weight: 400;
+			font-weight: 800;
 			color: #777;
 			outline: 0;
 		}
@@ -2134,7 +2212,15 @@
 				letter-spacing: 0;
 			}
 
-			h2, h3, h4, h5, h6 {
+			h2, h3 {
+				font-size: 1.6em;
+				letter-spacing: 2px;
+				text-align: center;
+				margin: 0 0 1.5em 0;
+			}
+
+
+			h4, h5, h6 {
 				font-size: 1.2em;
 				letter-spacing: 2px;
 				text-align: center;

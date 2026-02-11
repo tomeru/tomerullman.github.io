@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dot Kinematogram — DDM Demo</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        /* --- Control panel above the canvas --- */
+        #controls {
+            margin-bottom: 20px;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .input-group label {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .input-group input[type="number"] {
+            width: 70px;
+            padding: 8px;
+            font-size: 1.1rem;
+            text-align: center;
+            border-radius: 5px;
+            border: none;
+            background: #fff;
+            color: #000;
+        }
+
+        canvas {
+            border: 2px solid #444;
+            background-color: black;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        p {
+            color: #888;
+            font-size: 0.9rem;
+            margin: 8px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================================
+         Controls: two number inputs labelled D and C.
+           D = direction of coherent motion (degrees, 0–360)
+           C = coherence (percentage of signal dots, 0–100)
+         Values update the simulation in real time on every change.
+         ============================================================ -->
+    <div id="controls">
+        <div class="input-group">
+            <label for="inputD">D</label>
+            <input type="number" id="inputD" min="0" max="360" value="0">
+        </div>
+        <div class="input-group">
+            <label for="inputC">C</label>
+            <input type="number" id="inputC" min="0" max="100" value="50">
+        </div>
+    </div>
+
+    <canvas id="dotCanvas"></canvas>
+
+<script>
+    // ================================================================
+    // Random Dot Kinematogram (RDK)
+    //
+    // A standard perceptual decision-making stimulus. A field of dots
+    // moves inside a circular aperture. On each frame, every dot is
+    // independently assigned as either:
+    //   - a SIGNAL dot (moves in the specified direction), or
+    //   - a NOISE  dot (moves in a uniformly random direction).
+    //
+    // The proportion of signal dots is the "coherence" (0–100%).
+    // Higher coherence → easier to perceive the direction.
+    //
+    // This stimulus is the canonical paradigm modelled by the
+    // Drift Diffusion Model (DDM): noisy sensory evidence is
+    // accumulated over time until a decision threshold is reached.
+    // ================================================================
+
+    const canvas = document.getElementById('dotCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // --- Display configuration ---
+    canvas.width  = 600;
+    canvas.height = 600;
+    const centerX = canvas.width  / 2;   // centre of the circular aperture
+    const centerY = canvas.height / 2;
+    const apertureRadius = 250;          // radius (px) of the dot region
+
+    // --- Dot parameters ---
+    const numDots  = 200;   // total number of dots
+    const dotSpeed = 2;     // pixels per frame each dot travels
+    const dotRadius = 2;    // drawn radius of each dot
+    const maxLife  = 100;   // max lifetime (frames) before a dot resets
+
+    // --- Simulation state (updated by sliders) ---
+    let angle     = 0;      // coherent-motion direction in degrees (0 = right)
+    let coherence = 0.5;    // fraction of dots that are signal (0–1)
+    let dots      = [];     // array of Dot objects
+
+    // ================================================================
+    // Dot class
+    //
+    // Each dot has:
+    //   x, y  — position on canvas
+    //   life  — frames remaining before the dot is recycled
+    //
+    // Recycling (limited lifetime) prevents observers from tracking
+    // individual dots and forces reliance on the global motion signal,
+    // which is the standard methodology for RDK stimuli.
+    // ================================================================
+    class Dot {
+        constructor() {
+            this.x = 0;
+            this.y = 0;
+            this.life = 0;
+            this.resetToRandomPosition();
+        }
+
+        /**
+         * Place this dot at a random location inside the circular
+         * aperture and assign a fresh random lifetime.
+         */
+        resetToRandomPosition() {
+            // Use rejection sampling to get a uniform point in a circle
+            let dx, dy;
+            do {
+                dx = (Math.random() * 2 - 1) * apertureRadius;
+                dy = (Math.random() * 2 - 1) * apertureRadius;
+            } while (dx * dx + dy * dy > apertureRadius * apertureRadius);
+
+            this.x = centerX + dx;
+            this.y = centerY + dy;
+            this.life = Math.floor(Math.random() * maxLife) + 1;
+        }
+
+        /**
+         * Advance the dot by one frame.
+         *
+         * With probability = coherence the dot moves in the global
+         * signal direction; otherwise it moves in a uniformly random
+         * direction.  If the dot leaves the aperture or its lifetime
+         * expires, it is recycled to a new random position.
+         */
+        move() {
+            let rad;
+
+            if (Math.random() < coherence) {
+                // --- Signal dot: deterministic direction ---
+                // Convert degrees → radians.  Y-axis is inverted on
+                // canvas (positive-y points down), so we subtract sin
+                // to make 90° point upward (standard math convention).
+                rad = (angle * Math.PI) / 180;
+            } else {
+                // --- Noise dot: uniformly random direction ---
+                rad = Math.random() * Math.PI * 2;
+            }
+
+            this.x += Math.cos(rad) * dotSpeed;
+            this.y -= Math.sin(rad) * dotSpeed;
+
+            // Decrement lifetime
+            this.life--;
+
+            // Recycle the dot if it left the aperture or its life expired
+            const dx = this.x - centerX;
+            const dy = this.y - centerY;
+            if (dx * dx + dy * dy > apertureRadius * apertureRadius || this.life <= 0) {
+                this.resetToRandomPosition();
+            }
+        }
+
+        /** Draw the dot as a small filled white circle. */
+        draw() {
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, dotRadius, 0, Math.PI * 2);
+            ctx.fillStyle = 'white';
+            ctx.fill();
+        }
+    }
+
+    // ================================================================
+    // Initialisation
+    // ================================================================
+
+    /** Create the full set of dots. */
+    function initDots() {
+        dots = [];
+        for (let i = 0; i < numDots; i++) {
+            dots.push(new Dot());
+        }
+    }
+
+    // ================================================================
+    // Input wiring
+    //
+    // D (direction) and C (coherence) number fields update the
+    // simulation state in real time.  Values are clamped to their
+    // valid ranges so out-of-bounds entries are silently corrected.
+    // ================================================================
+    const inputD = document.getElementById('inputD');
+    const inputC = document.getElementById('inputC');
+
+    inputD.addEventListener('input', () => {
+        const v = parseFloat(inputD.value);
+        if (!isNaN(v)) angle = ((v % 360) + 360) % 360;  // wrap to 0–360
+    });
+
+    inputC.addEventListener('input', () => {
+        const v = parseFloat(inputC.value);
+        if (!isNaN(v)) coherence = Math.max(0, Math.min(100, v)) / 100;  // clamp 0–100 → 0–1
+    });
+
+    // ================================================================
+    // Animation loop
+    //
+    // Runs continuously from page load.  Each frame:
+    //   1. Clear the canvas
+    //   2. Draw the circular aperture boundary
+    //   3. Move and draw every dot
+    // ================================================================
+    function animate() {
+        // Clear the full canvas
+        ctx.fillStyle = 'black';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Draw a subtle circle showing the aperture boundary
+        ctx.beginPath();
+        ctx.arc(centerX, centerY, apertureRadius, 0, Math.PI * 2);
+        ctx.strokeStyle = '#333';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+
+        // Update and render each dot
+        for (let i = 0; i < dots.length; i++) {
+            dots[i].move();
+            dots[i].draw();
+        }
+
+        requestAnimationFrame(animate);
+    }
+
+    // --- Start immediately so the stimulus is visible on page load ---
+    initDots();
+    animate();
+</script>
+</body>
+</html>

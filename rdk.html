@@ -191,12 +191,12 @@
             }
         }
 
-        /** Draw the dot as a small filled white circle. */
+        /** Draw the dot as a small dragon emoji. */
         draw() {
-            ctx.beginPath();
-            ctx.arc(this.x, this.y, dotRadius, 0, Math.PI * 2);
-            ctx.fillStyle = 'white';
-            ctx.fill();
+            ctx.font = '12px serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('🐉', this.x, this.y);
         }
     }
 

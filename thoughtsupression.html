@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thought Suppression</title>
+  <style>
+    /* ── reset & base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #f5f4f0;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ── pages ── */
+    .page {
+      display: none;
+      width: 100%;
+      max-width: 640px;
+      padding: 2rem;
+      text-align: center;
+    }
+    .page.active { display: block; }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: normal;
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.02em;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 1.2rem;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      font-size: 0.95rem;
+      margin-bottom: 0.4rem;
+      color: #555;
+      text-align: left;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 0.6rem 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #bbb;
+      border-radius: 4px;
+      background: #fff;
+      margin-bottom: 1.6rem;
+      font-family: inherit;
+    }
+    input[type="text"]:focus { outline: none; border-color: #555; }
+
+    .group-buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 0.5rem;
+    }
+
+    .btn-group {
+      flex: 1;
+      max-width: 180px;
+      padding: 0.9rem 1rem;
+      font-size: 1.1rem;
+      font-family: inherit;
+      border: 2px solid #1a1a1a;
+      border-radius: 6px;
+      background: #fff;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .btn-group:hover { background: #1a1a1a; color: #fff; }
+
+    .btn-start {
+      margin-top: 1.5rem;
+      padding: 0.75rem 2.5rem;
+      font-size: 1rem;
+      font-family: inherit;
+      background: #1a1a1a;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-start:hover { background: #444; }
+
+    /* ── instructions page ── */
+    .instruction-box {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      text-align: left;
+      margin-bottom: 1.5rem;
+    }
+
+    /* ── experiment page (full viewport) ── */
+    #page-experiment {
+      position: fixed;
+      inset: 0;
+      max-width: none;
+      padding: 0;
+      overflow: hidden;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: #e8f4e8;
+    }
+    #page-experiment.active { display: flex; }
+
+    /* animal layer sits behind everything */
+    #animal-stage {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .drifting-animal {
+      position: absolute;
+      top: 0;
+      left: 0;
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+      will-change: transform;
+      filter: drop-shadow(1px 1px 0 rgba(0,0,0,0.08));
+    }
+
+    /* button sits above animals */
+    .button-wrapper {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* ── THE RED BUTTON ── */
+    #red-button {
+      display: block;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 38% 35%, #ff6b6b, #c0392b 70%);
+      border: none;
+      cursor: pointer;
+      box-shadow:
+        0 8px 24px rgba(192,57,43,0.5),
+        inset 0 -4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.08s, box-shadow 0.08s;
+      position: relative;
+    }
+    #red-button:hover {
+      transform: scale(1.03);
+      box-shadow: 0 12px 30px rgba(192,57,43,0.6), inset 0 -4px 8px rgba(0,0,0,0.2);
+    }
+    #red-button:active, #red-button.pressed {
+      transform: scale(0.95);
+      box-shadow: 0 3px 10px rgba(192,57,43,0.4), inset 0 4px 8px rgba(0,0,0,0.25);
+      background: radial-gradient(circle at 38% 35%, #c0392b, #922b21 70%);
+    }
+
+    /* pulse ring on click */
+    @keyframes pulse-ring {
+      0%   { transform: scale(1); opacity: 0.7; }
+      100% { transform: scale(1.6); opacity: 0; }
+    }
+    .pulse-ring {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      border: 3px solid #e74c3c;
+      animation: pulse-ring 0.45s ease-out forwards;
+      pointer-events: none;
+    }
+
+    .end-btn {
+      margin-top: 2rem;
+      background: rgba(255,255,255,0.6);
+      border: 1px solid rgba(0,0,0,0.15);
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 0.82rem;
+      color: #666;
+      cursor: pointer;
+      padding: 0.35rem 0.8rem;
+      backdrop-filter: blur(4px);
+    }
+    .end-btn:hover { background: rgba(255,255,255,0.9); color: #333; }
+
+    /* ── done page ── */
+    .done-box {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 1.5rem;
+      text-align: left;
+    }
+    .done-box p { margin-bottom: 0.5rem; }
+    .done-box strong { color: #1a1a1a; }
+
+    .btn-download {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      font-family: inherit;
+      background: #2c7a4b;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-download:hover { background: #1e5c36; }
+
+    .error { color: #c0392b; font-size: 0.9rem; margin-top: 0.5rem; }
+
+    @media (max-width: 500px) {
+      .page { padding: 1.2rem; }
+      #red-button { width: 175px; height: 175px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     PAGE 1 — LANDING
+═══════════════════════════════════════════ -->
+<div id="page-landing" class="page active">
+  <h1>Thought Suppression</h1>
+  <p>Welcome. Please enter your full name and indicate which group you have been assigned to.</p>
+
+  <label for="participant-id-input">Your full name</label>
+  <input type="text" id="participant-id-input" placeholder="e.g. Jane Smith" autocomplete="off">
+
+  <p style="margin-bottom:0.6rem;">Which group were you assigned?</p>
+  <div class="group-buttons">
+    <button class="btn-group" onclick="selectGroup('A')">Group A</button>
+    <button class="btn-group" onclick="selectGroup('B')">Group B</button>
+  </div>
+  <p class="error" id="landing-error" style="display:none;">Please enter your full name before continuing.</p>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     PAGE 2 — INSTRUCTIONS (reused for both sessions)
+═══════════════════════════════════════════ -->
+<div id="page-instructions" class="page">
+  <h1 id="instructions-heading">Instructions</h1>
+  <div class="instruction-box" id="instruction-text">
+    <!-- filled by JS -->
+  </div>
+  <button class="btn-start" id="btn-begin" onclick="startSession()">I am ready — begin</button>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     PAGE 3 — EXPERIMENT (reused for both sessions)
+═══════════════════════════════════════════ -->
+<div id="page-experiment" class="page">
+  <div id="animal-stage"></div>
+
+  <div class="button-wrapper">
+    <button id="red-button" onclick="logClick(event)" aria-label="Click when you think of the hedgehog"></button>
+    <button class="end-btn" onclick="endSession()">End session</button>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     PAGE 4 — DONE
+═══════════════════════════════════════════ -->
+<div id="page-done" class="page">
+  <h1>All done</h1>
+  <p>Thank you for participating.</p>
+
+  <div class="done-box" id="summary-box">
+    <!-- filled by JS -->
+  </div>
+
+  <p style="font-size:0.93rem; color:#555; margin-bottom:1.2rem;">
+    Please download your data file and submit it to your instructor as directed.
+  </p>
+  <button class="btn-download" onclick="downloadCSV()">Download my data (.csv)</button>
+</div>
+
+
+<script>
+/* ═══════════════════════════════════════════════
+   CONFIGURATION  ← edit these values as needed
+═══════════════════════════════════════════════ */
+const EXPERIMENT_DURATION_SECONDS = 5 * 60;   // duration of EACH session (default: 5 min)
+
+/*  OPTIONAL: send data to Google Sheets on completion.
+    See the Apps Script comment at the bottom for setup. */
+const ENABLE_SHEETS = false;
+const SHEETS_URL    = "";   // e.g. "https://script.google.com/macros/s/AKf.../exec"
+
+/* ═══════════════════════════════════════════════
+   ANIMALS  (no hedgehogs — they're the target!)
+═══════════════════════════════════════════════ */
+const ANIMAL_EMOJIS = [
+  '🐇','🦊','🐢','🦋','🐝','🦅','🦆','🐸',
+  '🐱','🐶','🐭','🦉','🦜','🦌','🦝','🐿️',
+  '🐞','🦁','🐻','🐔','🐠','🦩'
+];
+const ANIMAL_COUNT = 22;
+
+/* ═══════════════════════════════════════════════
+   INSTRUCTIONS TEXT
+   Session 1: A=suppress, B=activate
+   Session 2: A=activate (flipped), B=suppress (flipped)
+═══════════════════════════════════════════════ */
+const INSTRUCTIONS = {
+  1: {
+    heading: "Instructions",
+    A: `You are in <strong>Group A</strong>.<br><br>
+        Try <strong>NOT</strong> to think of an angry hedgehog.<br><br>
+        Whenever you think of an angry hedgehog, click on the red button.`,
+    B: `You are in <strong>Group B</strong>.<br><br>
+        <strong>DO</strong> try to think of an angry hedgehog.<br><br>
+        Whenever you think of an angry hedgehog, click on the red button.`
+  },
+  2: {
+    heading: "Part 2 — New Instructions",
+    A: `You are in <strong>Group A</strong>.<br><br>
+        Now, <strong>DO</strong> try to think of an angry hedgehog.<br><br>
+        Whenever you think of an angry hedgehog, click on the red button.`,
+    B: `You are in <strong>Group B</strong>.<br><br>
+        Now, try <strong>NOT</strong> to think of an angry hedgehog.<br><br>
+        Whenever you think of an angry hedgehog, click on the red button.`
+  }
+};
+
+/* ═══════════════════════════════════════════════
+   STATE
+═══════════════════════════════════════════════ */
+let state = {
+  participantName : "",
+  group           : "",
+  currentSession  : 1,
+  clicks          : [],   // {session, n, isoTimestamp, elapsedSec}
+  startTime       : null,
+  timerInterval   : null,
+  sessionEnded    : false,
+  animalAnims     : []
+};
+
+/* ═══════════════════════════════════════════════
+   PAGE NAVIGATION
+═══════════════════════════════════════════════ */
+function showPage(id) {
+  document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+}
+
+/* ═══════════════════════════════════════════════
+   PAGE 1 → instructions for session 1
+═══════════════════════════════════════════════ */
+function selectGroup(group) {
+  const nameInput = document.getElementById("participant-id-input");
+  const errEl     = document.getElementById("landing-error");
+
+  if (!nameInput.value.trim()) {
+    errEl.style.display = "block";
+    nameInput.focus();
+    return;
+  }
+  errEl.style.display = "none";
+
+  state.participantName  = nameInput.value.trim();
+  state.group            = group;
+  state.currentSession   = 1;
+  state.clicks           = [];
+
+  loadInstructions(1);
+  showPage("page-instructions");
+}
+
+/* ═══════════════════════════════════════════════
+   LOAD INSTRUCTIONS for given session number
+═══════════════════════════════════════════════ */
+function loadInstructions(sessionNum) {
+  const cfg = INSTRUCTIONS[sessionNum];
+  document.getElementById("instructions-heading").textContent = cfg.heading;
+  document.getElementById("instruction-text").innerHTML       = cfg[state.group];
+}
+
+/* ═══════════════════════════════════════════════
+   START SESSION (called from both instruction pages)
+═══════════════════════════════════════════════ */
+function startSession() {
+  state.startTime    = Date.now();
+  state.sessionEnded = false;
+
+  showPage("page-experiment");
+  initAnimals();
+
+  let remaining = EXPERIMENT_DURATION_SECONDS;
+  clearInterval(state.timerInterval);
+  state.timerInterval = setInterval(() => {
+    remaining -= 1;
+    if (remaining <= 0) finishSession();
+  }, 1000);
+}
+
+/* ═══════════════════════════════════════════════
+   RED BUTTON CLICK
+═══════════════════════════════════════════════ */
+function logClick(event) {
+  if (state.sessionEnded) return;
+
+  const now      = Date.now();
+  const elapsed  = ((now - state.startTime) / 1000).toFixed(2);
+  const isoStamp = new Date(now).toISOString();
+
+  // click number restarts from 1 each session
+  const sessionClicks = state.clicks.filter(c => c.session === state.currentSession).length;
+  const n = sessionClicks + 1;
+
+  state.clicks.push({
+    session      : state.currentSession,
+    n,
+    isoTimestamp : isoStamp,
+    elapsedSec   : elapsed
+  });
+
+  autosave();
+
+  // visual: pulse ring
+  const ring = document.createElement("span");
+  ring.className = "pulse-ring";
+  event.currentTarget.appendChild(ring);
+  setTimeout(() => ring.remove(), 460);
+
+  // visual: press effect
+  const btn = event.currentTarget;
+  btn.classList.add("pressed");
+  setTimeout(() => btn.classList.remove("pressed"), 120);
+}
+
+/* ═══════════════════════════════════════════════
+   END SESSION BUTTON
+═══════════════════════════════════════════════ */
+function endSession() {
+  if (confirm("End this session now?")) finishSession();
+}
+
+/* ═══════════════════════════════════════════════
+   FINISH SESSION — branch on which session just ended
+═══════════════════════════════════════════════ */
+function finishSession() {
+  if (state.sessionEnded) return;
+  state.sessionEnded = true;
+  clearInterval(state.timerInterval);
+  stopAnimals();
+  autosave();
+
+  if (state.currentSession === 1) {
+    // Move to session 2 instructions
+    state.currentSession = 2;
+    loadInstructions(2);
+    showPage("page-instructions");
+  } else {
+    // Both sessions complete — show done page
+    if (ENABLE_SHEETS) submitToSheets();
+
+    const s1 = state.clicks.filter(c => c.session === 1).length;
+    const s2 = state.clicks.filter(c => c.session === 2).length;
+    document.getElementById("summary-box").innerHTML = `
+      <p><strong>Name:</strong> ${esc(state.participantName)}</p>
+      <p><strong>Group:</strong> ${esc(state.group)}</p>
+      <p><strong>Clicks in session 1:</strong> ${s1}</p>
+      <p><strong>Clicks in session 2:</strong> ${s2}</p>
+    `;
+    showPage("page-done");
+  }
+}
+
+/* ═══════════════════════════════════════════════
+   MOVING ANIMALS
+═══════════════════════════════════════════════ */
+function initAnimals() {
+  const stage = document.getElementById("animal-stage");
+  stage.innerHTML = "";
+  state.animalAnims = [];
+
+  for (let i = 0; i < ANIMAL_COUNT; i++) {
+    const el = document.createElement("span");
+    el.className   = "drifting-animal";
+    el.textContent = ANIMAL_EMOJIS[i % ANIMAL_EMOJIS.length];
+    el.style.fontSize = (1.6 + Math.random() * 1.6) + "rem";
+    stage.appendChild(el);
+    launchAnimal(el, true);
+  }
+}
+
+function launchAnimal(el, randomStart) {
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+
+  const goRight = Math.random() > 0.5;
+  const margin  = 90;
+  const startX  = goRight ? -margin : vw + margin;
+  const endX    = goRight ? vw + margin : -margin;
+
+  const bandTop = 0.06 * vh;
+  const bandBot = 0.94 * vh;
+  const startY  = bandTop + Math.random() * (bandBot - bandTop);
+  const drift   = (Math.random() - 0.5) * 0.2 * vh;
+  const endY    = Math.max(bandTop, Math.min(bandBot, startY + drift));
+
+  const duration = (15 + Math.random() * 20) * 1000;
+  const progress = randomStart ? Math.random() : 0;
+  const fromX    = startX + (endX - startX) * progress;
+  const fromY    = startY + (endY - startY) * progress;
+  const remTime  = duration * (1 - progress);
+  const flip     = goRight ? "" : " scaleX(-1)";
+
+  const anim = el.animate(
+    [
+      { transform: `translate(${fromX}px, ${fromY}px)${flip}` },
+      { transform: `translate(${endX}px,   ${endY}px)${flip}` }
+    ],
+    { duration: remTime, easing: "linear", fill: "forwards" }
+  );
+
+  anim.onfinish = () => { if (!state.sessionEnded) launchAnimal(el, false); };
+  state.animalAnims.push(anim);
+}
+
+function stopAnimals() {
+  state.animalAnims.forEach(a => { try { a.cancel(); } catch(_) {} });
+  state.animalAnims = [];
+}
+
+/* ═══════════════════════════════════════════════
+   CSV DOWNLOAD
+═══════════════════════════════════════════════ */
+function downloadCSV() {
+  const rows = [["name","group","session","click_number","timestamp_utc","elapsed_seconds"]];
+
+  if (state.clicks.length === 0) {
+    rows.push([state.participantName, state.group, "", 0, "", ""]);
+  } else {
+    state.clicks.forEach(c => {
+      rows.push([
+        state.participantName,
+        state.group,
+        c.session,
+        c.n,
+        c.isoTimestamp,
+        c.elapsedSec
+      ]);
+    });
+  }
+
+  const csv  = rows.map(r => r.map(csvCell).join(",")).join("\r\n");
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = `hedgehog_${state.participantName.replace(/\s+/g,"_")}_group${state.group}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 500);
+}
+
+function csvCell(v) {
+  const s = String(v ?? "");
+  return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}
+
+/* ═══════════════════════════════════════════════
+   AUTO-SAVE TO localStorage  (backup)
+═══════════════════════════════════════════════ */
+function autosave() {
+  try {
+    localStorage.setItem("hedgehog_experiment", JSON.stringify({
+      saved           : new Date().toISOString(),
+      participantName : state.participantName,
+      group           : state.group,
+      currentSession  : state.currentSession,
+      clicks          : state.clicks
+    }));
+  } catch(e) {}
+}
+
+/* ═══════════════════════════════════════════════
+   OPTIONAL: GOOGLE SHEETS SUBMISSION
+   ─────────────────────────────────────────────
+   To enable:
+   1. Open script.google.com → New project
+   2. Paste the Apps Script code from the comment
+      block at the very bottom of this file.
+   3. Deploy → New deployment → Web app
+      Execute as: Me   |   Who has access: Anyone
+   4. Copy the web app URL into SHEETS_URL above
+      and set ENABLE_SHEETS = true.
+═══════════════════════════════════════════════ */
+function submitToSheets() {
+  if (!SHEETS_URL) return;
+
+  const rows = state.clicks.length === 0
+    ? [{ name: state.participantName, group: state.group, session: "",
+         click_number: 0, timestamp_utc: "", elapsed_seconds: "" }]
+    : state.clicks.map(c => ({
+        name            : state.participantName,
+        group           : state.group,
+        session         : c.session,
+        click_number    : c.n,
+        timestamp_utc   : c.isoTimestamp,
+        elapsed_seconds : c.elapsedSec
+      }));
+
+  fetch(SHEETS_URL, {
+    method : "POST",
+    mode   : "no-cors",
+    headers: { "Content-Type": "application/json" },
+    body   : JSON.stringify(rows)
+  }).catch(() => {});
+}
+
+/* ═══════════════════════════════════════════════
+   UTILITY
+═══════════════════════════════════════════════ */
+function esc(s) {
+  return String(s ?? "")
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+</script>
+
+
+<!--
+════════════════════════════════════════════════════════════════════
+  APPS SCRIPT CODE (paste into script.google.com if using Sheets)
+════════════════════════════════════════════════════════════════════
+
+function doPost(e) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow([
+      "name","group","session","click_number",
+      "timestamp_utc","elapsed_seconds","received_at"
+    ]);
+  }
+
+  try {
+    const rows = JSON.parse(e.postData.contents);
+    rows.forEach(row => {
+      sheet.appendRow([
+        row.name, row.group, row.session, row.click_number,
+        row.timestamp_utc, row.elapsed_seconds,
+        new Date().toISOString()
+      ]);
+    });
+  } catch(err) {
+    sheet.appendRow(["ERROR","","","","","",err.toString()]);
+  }
+
+  return ContentService
+    .createTextOutput(JSON.stringify({ status: "ok" }))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+════════════════════════════════════════════════════════════════════
+-->
+</body>
+</html>
